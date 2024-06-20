@@ -26,9 +26,21 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "dba17200d8d7a5ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "upload on mac.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GRAPHICS/WebGPU.md",
+                "file": "upload on mac.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GRAPHICS/WebGPU.md",
+                "file": "upload on mac.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GRAPHICS/WebGPU.md"
+                "file": "upload on mac.md"
               }
             }
           },
@@ -155,6 +167,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -163,8 +177,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "88c13d78605ad519",
+  "active": "dba17200d8d7a5ef",
   "lastOpenFiles": [
+    "upload on mac.md",
     "2024/DAILY/2024-06-20.md",
     "2024-06-20.md",
     "GRAPHICS/Shader.md",
