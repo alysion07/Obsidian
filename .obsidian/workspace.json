@@ -13,13 +13,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "테스트 카드 @{2024-06-28}.md",
+                "file": "무제 파일.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "d585aa4c7f59d7d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "이름 없는 보드.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ff49cea1bb9d150",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20240620204605.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "테스트 카드 @{2024-06-28}.md",
+                "file": "이름 없는 보드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "테스트 카드 @{2024-06-28}.md",
+                "file": "이름 없는 보드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "테스트 카드 @{2024-06-28}.md"
+                "file": "이름 없는 보드.md"
               }
             }
           },
@@ -151,17 +174,28 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "e61380f5e725d1e2",
+  "active": "d585aa4c7f59d7d7",
   "lastOpenFiles": [
-    "이름 없는 보드.md",
-    "2024-06-20.md",
+    "lib_resource/Pasted image 20240620205537.png",
     "alysion/Welcome.md",
-    "alysion/무제 파일.canvas",
+    "Excalidraw/Drawing 2024-06-20 20.43.31.excalidraw.md",
+    "Pasted image 20240620204605.png",
+    "lib_resource",
+    "export_resource",
+    "새 폴더",
     "upload on phone.md",
+    "Untitled.md",
+    "무제 파일.md",
+    "2024-06-20.md",
     "테스트 카드 @{2024-06-28}.md",
+    "이름 없는 보드.md",
+    "Excalidraw",
+    "alysion/무제 파일.canvas",
     "이름 없는 보드 1.md"
   ]
 }
