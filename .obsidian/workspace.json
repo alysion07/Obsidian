@@ -6,9 +6,10 @@
       {
         "id": "95c208d151a52283",
         "type": "tabs",
+        "dimension": 48.9977728285078,
         "children": [
           {
-            "id": "1a8b83706cb1b19b",
+            "id": "c171b019aa019ddf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,6 +18,21 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "0eb4b60775e90ff0",
+        "type": "tabs",
+        "dimension": 51.00222717149221,
+        "children": [
+          {
+            "id": "1a8b83706cb1b19b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -69,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "b444820eb92540bb",
@@ -85,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "upload on phone.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "upload on phone.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "upload on phone.md"
-              }
+              "state": {}
             }
           }
         ]
