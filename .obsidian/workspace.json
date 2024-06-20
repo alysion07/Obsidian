@@ -6,7 +6,7 @@
       {
         "id": "95c208d151a52283",
         "type": "tabs",
-        "dimension": 48.9977728285078,
+        "dimension": 77.728285077951,
         "children": [
           {
             "id": "c171b019aa019ddf",
@@ -25,7 +25,7 @@
       {
         "id": "0eb4b60775e90ff0",
         "type": "tabs",
-        "dimension": 51.00222717149221,
+        "dimension": 22.271714922049,
         "children": [
           {
             "id": "1a8b83706cb1b19b",
@@ -101,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "upload on phone.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "upload on phone.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "upload on phone.md"
+              }
             }
           }
         ]
@@ -158,7 +162,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1a8b83706cb1b19b",
+  "active": "c171b019aa019ddf",
   "lastOpenFiles": [
     "upload on phone.md"
   ]
