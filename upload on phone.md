@@ -1,13 +1,10 @@
 test text
 # 마크다운
 ## 테스트
-
-``` run-cpp
-int main()
-{
-int  at = 0;
-
-
- 
+``` run-js
+function hello(name) {
+	console.log(`Hello ${name}!`);
 }
+
+hello("Bob")
 ```
