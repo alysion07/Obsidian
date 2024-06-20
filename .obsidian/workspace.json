@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "upload on phone.md",
+                "file": "2024-06-20.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "upload on phone.md",
+                "file": "2024-06-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "upload on phone.md",
+                "file": "2024-06-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "upload on phone.md"
+                "file": "2024-06-20.md"
               }
             }
           },
@@ -137,12 +137,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,9 +157,12 @@
   },
   "active": "c171b019aa019ddf",
   "lastOpenFiles": [
+    "alysion/Welcome.md",
+    "2024-06-20.md",
+    "alysion/무제 파일.canvas",
+    "upload on phone.md",
     "테스트 카드 @{2024-06-28}.md",
     "이름 없는 보드.md",
-    "이름 없는 보드 1.md",
-    "upload on phone.md"
+    "이름 없는 보드 1.md"
   ]
 }
