@@ -6,7 +6,6 @@
       {
         "id": "95c208d151a52283",
         "type": "tabs",
-        "dimension": 62.97250859106529,
         "children": [
           {
             "id": "c171b019aa019ddf",
@@ -18,21 +17,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "0eb4b60775e90ff0",
-        "type": "tabs",
-        "dimension": 37.02749140893471,
-        "children": [
-          {
-            "id": "1a8b83706cb1b19b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -144,6 +128,14 @@
                 "file": "upload on phone.md"
               }
             }
+          },
+          {
+            "id": "0ce960ddf2db1b20",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ]
       }
@@ -159,11 +151,15 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-kanban:새 보드 만들기": false
     }
   },
   "active": "c171b019aa019ddf",
   "lastOpenFiles": [
+    "테스트 카드 @{2024-06-28}.md",
+    "이름 없는 보드.md",
+    "이름 없는 보드 1.md",
     "upload on phone.md"
   ]
 }

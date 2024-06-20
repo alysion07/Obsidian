@@ -2,7 +2,7 @@ test text
 # 마크다운
 ## 테스트
 
-``` rust
+``` cpp
 // Update Regional Segment
 std::vector<DBKey*> set_rs_keys;
 for (int j = 0; j < geo_count; j++)
