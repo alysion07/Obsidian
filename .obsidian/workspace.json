@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-06-20.md",
+                "file": "테스트 카드 @{2024-06-28}.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-06-20.md",
+                "file": "테스트 카드 @{2024-06-28}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-06-20.md",
+                "file": "테스트 카드 @{2024-06-28}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-06-20.md"
+                "file": "테스트 카드 @{2024-06-28}.md"
               }
             }
           },
@@ -155,14 +155,14 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "c171b019aa019ddf",
+  "active": "e61380f5e725d1e2",
   "lastOpenFiles": [
-    "alysion/Welcome.md",
+    "이름 없는 보드.md",
     "2024-06-20.md",
+    "alysion/Welcome.md",
     "alysion/무제 파일.canvas",
     "upload on phone.md",
     "테스트 카드 @{2024-06-28}.md",
-    "이름 없는 보드.md",
     "이름 없는 보드 1.md"
   ]
 }
