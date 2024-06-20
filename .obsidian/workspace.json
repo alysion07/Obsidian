@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "91ffec4278a770be",
+        "id": "b4dfe513ebd26fe1",
         "type": "tabs",
         "children": [
           {
-            "id": "b793e7b2ffe4d373",
+            "id": "6dafa1067bf20ae0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "GRAPHICS/WebGPU.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "88c13d78605ad519",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shader.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 268.5
   },
   "right": {
     "id": "b444820eb92540bb",
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Shader.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Shader.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Shader.md"
+              }
             }
           },
           {
@@ -130,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -149,14 +170,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e61380f5e725d1e2",
+  "active": "88c13d78605ad519",
   "lastOpenFiles": [
+    "GRAPHICS/WebGPU.md",
+    "Shader.md",
+    "GRAPHICS/webgl.md",
+    "GRAPHICS/Render.md",
+    "2024/DAILY/2024-06-20.md",
+    "Excalidraw/Drawing 2024-06-20 20.43.31.excalidraw.md",
+    "[OpenGL.md",
     "ARCHIVE",
-    "무제 파일.md",
     "GRAPHICS",
     "이름 없는 보드.md",
     "2024/06/2Q-25주.md",
-    "2024/DAILY/2024-06-20.md",
     "2024/2024-06.md",
     "2024/2Q-25주.md",
     "2024/DAILY",
@@ -176,13 +202,11 @@
     "새 폴더",
     "alysion/Welcome.md",
     "Resource/lib_resource/Pasted image 20240620204605.png",
-    "Excalidraw/Drawing 2024-06-20 20.43.31.excalidraw.md",
     "Resource",
     "Resource/iconpack/redo_24dp_FILL0_wght400_GRAD0_opsz24.svg",
     "Resource/iconpack",
     "Resource/lib_resource/Pasted image 20240620205537.png",
     "Untitled.md",
-    "2024",
     "alysion/무제 파일.canvas",
     "이름 없는 보드 1.md"
   ]
