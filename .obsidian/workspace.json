@@ -1,25 +1,18 @@
 {
   "main": {
-    "id": "e1a1913cd88b1378",
+    "id": "7640fbdd345d867c",
     "type": "split",
     "children": [
       {
-        "id": "248e8429e0573806",
+        "id": "95c208d151a52283",
         "type": "tabs",
         "children": [
           {
-            "id": "ab889f2ceb5e6cfd",
+            "id": "1a8b83706cb1b19b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "무제 파일.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -28,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d9bd4eb0b288cdaa",
+    "id": "eea65432c7924f8a",
     "type": "split",
     "children": [
       {
-        "id": "9bf46aec9b718b6a",
+        "id": "0c7924b8e20e1f20",
         "type": "tabs",
         "children": [
           {
-            "id": "2042f6ad25392008",
+            "id": "e61380f5e725d1e2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -46,7 +39,7 @@
             }
           },
           {
-            "id": "d396b9bc75280b8f",
+            "id": "65ac04410a73887f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +54,7 @@
             }
           },
           {
-            "id": "33f0f662f815a5ed",
+            "id": "60016d9af148bf73",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -75,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "cdac82b0fd6a1aba",
+    "id": "b444820eb92540bb",
     "type": "split",
     "children": [
       {
-        "id": "533088ed95be87c9",
+        "id": "c169a64faa8b10ec",
         "type": "tabs",
         "children": [
           {
-            "id": "4638168ddfff4736",
+            "id": "928e7e122027a2ee",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "무제 파일.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,19 +92,18 @@
             }
           },
           {
-            "id": "4d2c5669ec2c6c7c",
+            "id": "9507b7a67d258d97",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "무제 파일.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "cbd09cf864aa75bc",
+            "id": "27dce36c6ad9bc73",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -123,13 +114,11 @@
             }
           },
           {
-            "id": "bb69dc7cc4d66d43",
+            "id": "1b235fad9e17c04b",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "무제 파일.canvas"
-              }
+              "state": {}
             }
           }
         ]
@@ -149,10 +138,6 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ab889f2ceb5e6cfd",
-  "lastOpenFiles": [
-    "무제 파일.canvas",
-    "Welcome.md",
-    "TEST FIle for Sync.md"
-  ]
+  "active": "1a8b83706cb1b19b",
+  "lastOpenFiles": []
 }
