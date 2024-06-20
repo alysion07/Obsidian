@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "GRAPHICS/WebGPU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "GRAPHICS/WebGPU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "GRAPHICS/WebGPU.md"
+              }
             }
           },
           {
@@ -156,10 +160,7 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-projects:Open projects": false,
-      "periodic-notes:Open today": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
   "active": "88c13d78605ad519",
@@ -189,7 +190,6 @@
     "2024/[2024-W25.md",
     "2024-W25.md",
     "테스트 카드 @{2024-06-28}.md",
-    "무제 파일.canvas",
     "upload on phone.md",
     "cling",
     "새 폴더",
