@@ -2,7 +2,7 @@ test text
 # 마크다운
 ## 테스트
 
-``` markdown
+``` rust
 // Update Regional Segment
 std::vector<DBKey*> set_rs_keys;
 for (int j = 0; j < geo_count; j++)
@@ -23,5 +23,4 @@ for (int j = 0; j < geo_count; j++)
 		set_rs_keys.push_back(p_rs_item->m_KEY);
 	}
 }
-
-```
+`````
