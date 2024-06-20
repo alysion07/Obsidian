@@ -23,12 +23,8 @@
             "id": "88c13d78605ad519",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Shader.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -98,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Shader.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Shader.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Shader.md"
-              }
+              "state": {}
             }
           },
           {
@@ -173,9 +165,9 @@
   "active": "88c13d78605ad519",
   "lastOpenFiles": [
     "GRAPHICS/WebGPU.md",
-    "Shader.md",
     "GRAPHICS/webgl.md",
     "GRAPHICS/Render.md",
+    "GRAPHICS/Shader.md",
     "2024/DAILY/2024-06-20.md",
     "Excalidraw/Drawing 2024-06-20 20.43.31.excalidraw.md",
     "[OpenGL.md",
