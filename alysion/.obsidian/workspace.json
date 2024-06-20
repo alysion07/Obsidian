@@ -32,8 +32,21 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "d248e89e6a1cae2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TEST FIle for Sync.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,6 +175,7 @@
   },
   "active": "793a3e3e1ba116bb",
   "lastOpenFiles": [
+    "TEST FIle for Sync.md",
     "Welcome.md"
   ]
 }
