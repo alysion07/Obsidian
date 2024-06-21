@@ -5,7 +5,13 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "RiPushpinFill",
+      "RiStackLine",
+      "RiGalleryView",
+      "RiPriceTag3Fill",
+      "RiCupLine"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -25,5 +31,20 @@
     "iconsInLinksEnabled": true,
     "iconIdentifier": ":",
     "debugMode": false
+  },
+  "PROJECT": {
+    "iconName": "RiTodoLine",
+    "iconColor": "#ff3838"
+  },
+  "AREA": {
+    "iconName": "RiFolderChartLine",
+    "iconColor": "#58fef3"
+  },
+  "RESOURCE/COFFEE": "RiCupLine",
+  "GARAGE": "RiPriceTag3Fill",
+  "ARCHIVE": "RiStackLine",
+  "RESOURCE": {
+    "iconName": "RiPushpinFill",
+    "iconColor": "#7affd3"
   }
 }
