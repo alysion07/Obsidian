@@ -1,0 +1,73 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "path",
+              "kanban-plugin"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#1ca2ce",
+                "condition": {
+                  "field": "name",
+                  "operator": "is-empty",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "name",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "t"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "61781282-7806-41d2-9af8-7ea9527511f6",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "a633bebd-34aa-4171-b4f5-0fbbd04f2352",
+      "name": "Untitled project"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}
