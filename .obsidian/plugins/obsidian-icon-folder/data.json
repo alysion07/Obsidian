@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiStickyNoteLine",
+      "RiGraduationCapLine",
       "RiPushpinFill",
       "RiStackLine",
-      "RiGalleryView",
-      "RiPriceTag3Fill",
-      "RiCupLine"
+      "RiGalleryView"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -32,7 +32,6 @@
     "iconIdentifier": ":",
     "debugMode": false
   },
-  "RESOURCE/COFFEE": "RiCupLine",
   "GARAGE": "RiPriceTag3Fill",
   "RESOURCE": {
     "iconName": "RiPushpinFill",
@@ -46,5 +45,11 @@
   "AREA": {
     "iconName": "RiFolderChartLine",
     "iconColor": "#58fef3"
-  }
+  },
+  "PROJECT/GRAPHICS": {
+    "iconName": "RiGraduationCapLine",
+    "iconColor": "#70dbff"
+  },
+  "PROJECT/2024": "RiStickyNoteLine",
+  "AREA/COFFEE": "RiCupLine"
 }

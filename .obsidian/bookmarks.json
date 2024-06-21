@@ -7,8 +7,34 @@
         {
           "type": "group",
           "ctime": 1718936279855,
-          "items": [],
-          "title": "ARCHIVE"
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1718947020408,
+              "items": [
+                {
+                  "type": "group",
+                  "ctime": 1718947056473,
+                  "items": [],
+                  "title": "WEKLEY"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1718947056473,
+                  "path": "PROJECT/2024/2024-06.md",
+                  "subpath": "#^-"
+                }
+              ],
+              "title": "2024"
+            },
+            {
+              "type": "group",
+              "ctime": 1718947020408,
+              "items": [],
+              "title": "GRAPHICS"
+            }
+          ],
+          "title": "PROJECT"
         },
         {
           "type": "group",
@@ -20,19 +46,19 @@
           "type": "group",
           "ctime": 1718936279855,
           "items": [],
-          "title": "GARAGE"
-        },
-        {
-          "type": "group",
-          "ctime": 1718936279855,
-          "items": [],
-          "title": "PROJECT"
-        },
-        {
-          "type": "group",
-          "ctime": 1718936279855,
-          "items": [],
           "title": "RESOURCE"
+        },
+        {
+          "type": "group",
+          "ctime": 1718936279855,
+          "items": [],
+          "title": "ARCHIVE"
+        },
+        {
+          "type": "group",
+          "ctime": 1718936279855,
+          "items": [],
+          "title": "GARAGE"
         }
       ],
       "title": "sortspec"
