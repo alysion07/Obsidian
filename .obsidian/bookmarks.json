@@ -3,7 +3,38 @@
     {
       "type": "group",
       "ctime": 1718933748044,
-      "items": [],
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1718936279855,
+          "items": [],
+          "title": "ARCHIVE"
+        },
+        {
+          "type": "group",
+          "ctime": 1718936279855,
+          "items": [],
+          "title": "AREA"
+        },
+        {
+          "type": "group",
+          "ctime": 1718936279855,
+          "items": [],
+          "title": "GARAGE"
+        },
+        {
+          "type": "group",
+          "ctime": 1718936279855,
+          "items": [],
+          "title": "PROJECT"
+        },
+        {
+          "type": "group",
+          "ctime": 1718936279855,
+          "items": [],
+          "title": "RESOURCE"
+        }
+      ],
       "title": "sortspec"
     }
   ]
