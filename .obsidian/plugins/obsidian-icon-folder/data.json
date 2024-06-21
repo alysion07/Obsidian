@@ -32,19 +32,19 @@
     "iconIdentifier": ":",
     "debugMode": false
   },
+  "RESOURCE/COFFEE": "RiCupLine",
+  "GARAGE": "RiPriceTag3Fill",
+  "RESOURCE": {
+    "iconName": "RiPushpinFill",
+    "iconColor": "#7affd3"
+  },
   "PROJECT": {
     "iconName": "RiTodoLine",
     "iconColor": "#ff3838"
   },
+  "ARCHIVE": "RiStackLine",
   "AREA": {
     "iconName": "RiFolderChartLine",
     "iconColor": "#58fef3"
-  },
-  "RESOURCE/COFFEE": "RiCupLine",
-  "GARAGE": "RiPriceTag3Fill",
-  "ARCHIVE": "RiStackLine",
-  "RESOURCE": {
-    "iconName": "RiPushpinFill",
-    "iconColor": "#7affd3"
   }
 }
