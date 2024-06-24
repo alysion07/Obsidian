@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "RiCupLine",
       "RiStickyNoteLine",
       "RiGraduationCapLine",
       "RiPushpinFill",
-      "RiStackLine"
+      "RiStackLine",
+      "RiGalleryView"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -41,7 +41,10 @@
     "iconName": "RiTodoLine",
     "iconColor": "#ff3838"
   },
-  "ARCHIVE": "RiStackLine",
+  "ARCHIVE": {
+    "iconName": "RiStackLine",
+    "iconColor": "#fee8c3"
+  },
   "AREA": {
     "iconName": "RiFolderChartLine",
     "iconColor": "#58fef3"
@@ -51,6 +54,5 @@
     "iconColor": "#70dbff"
   },
   "PROJECT/2024": "RiStickyNoteLine",
-  "AREA/COFFEE": "RiCupLine",
-  "AREA/Coffee.md": "RiCupLine"
+  "AREA/COFFEE": "RiCupLine"
 }
