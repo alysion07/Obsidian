@@ -49,10 +49,10 @@
     "iconName": "RiFolderChartLine",
     "iconColor": "#58fef3"
   },
-  "PROJECT/GRAPHICS": {
+  "PROJECT/2024": "RiStickyNoteLine",
+  "AREA/COFFEE": "RiCupLine",
+  "RESOURCE/GRAPHICS": {
     "iconName": "RiGraduationCapLine",
     "iconColor": "#70dbff"
-  },
-  "PROJECT/2024": "RiStickyNoteLine",
-  "AREA/COFFEE": "RiCupLine"
+  }
 }
