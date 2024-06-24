@@ -1,4 +1,7 @@
 {
   "cssTheme": "Things",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "Image Align"
+  ]
 }
