@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "RiComputerLine",
-      "RiCarFill",
-      "RiPlanetLine",
+      "RiCupLine",
       "RiStickyNoteLine",
-      "RiGraduationCapLine"
+      "RiGraduationCapLine",
+      "RiPushpinFill",
+      "RiStackLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,29 +39,13 @@
   },
   "PROJECT": {
     "iconName": "RiTodoLine",
-    "iconColor": "#fe5858"
+    "iconColor": "#ff3838"
   },
-  "ARCHIVE": {
-    "iconName": "RiStackLine",
-    "iconColor": "#fee8c3"
-  },
+  "ARCHIVE": "RiStackLine",
   "AREA": {
     "iconName": "RiFolderChartLine",
     "iconColor": "#58fef3"
   },
   "PROJECT/2024": "RiStickyNoteLine",
-  "AREA/COFFEE": "RiCupLine",
-  "RESOURCE/GRAPHICS": {
-    "iconName": "RiGraduationCapLine",
-    "iconColor": "#70dbff"
-  },
-  "ARCHIVE/NVIDIA DRIVE AGX.md": "RiCarFill",
-  "RESOURCE/Computer Engneering": {
-    "iconName": "RiComputerLine",
-    "iconColor": "#cc90fe"
-  },
-  "RESOURCE/NETWORKS": {
-    "iconName": "RiPlanetLine",
-    "iconColor": "#adffb3"
-  }
+  "AREA/COFFEE": "RiCupLine"
 }
