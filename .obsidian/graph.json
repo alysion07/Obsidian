@@ -5,18 +5,54 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:RESOURCE/NETWORKS  ",
+      "color": {
+        "a": 1,
+        "rgb": 11403187
+      }
+    },
+    {
+      "query": "path:\"RESOURCE/Computer Engneering\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 13406462
+      }
+    },
+    {
+      "query": "path:RESOURCE/GRAPHICS  ",
+      "color": {
+        "a": 1,
+        "rgb": 7396351
+      }
+    },
+    {
+      "query": "path:RESOURCE  ",
+      "color": {
+        "a": 1,
+        "rgb": 8060883
+      }
+    },
+    {
+      "query": "path:PROJECT  ",
+      "color": {
+        "a": 1,
+        "rgb": 16668760
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": false,
+  "nodeSizeMultiplier": 0.993174518201285,
+  "lineSizeMultiplier": 1.0211545324768,
+  "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
-  "linkStrength": 0.484375,
-  "linkDistance": 199,
+  "linkStrength": 1,
+  "linkDistance": 250,
   "scale": 0.713275462622445,
   "close": true
 }

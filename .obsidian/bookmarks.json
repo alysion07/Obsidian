@@ -34,13 +34,13 @@
           "type": "group",
           "ctime": 1718936279855,
           "items": [],
-          "title": "AREA"
+          "title": "RESOURCE"
         },
         {
           "type": "group",
           "ctime": 1718936279855,
           "items": [],
-          "title": "RESOURCE"
+          "title": "AREA"
         },
         {
           "type": "group",
@@ -56,6 +56,23 @@
         }
       ],
       "title": "sortspec"
+    },
+    {
+      "type": "group",
+      "ctime": 1719294316382,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1719294294725,
+          "path": "RESOURCE/NETWORKS/라우터.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1719294305195,
+          "path": "RESOURCE/NETWORKS/웹서버.md"
+        }
+      ],
+      "title": "NETWORKS"
     }
   ]
 }

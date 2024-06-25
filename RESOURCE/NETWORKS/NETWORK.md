@@ -1,9 +1,12 @@
 # Protocol
-
+---
 대표적인 프로토콜에는 인터넷에서 사용되는 [[TCP_IP]]와 IP(Internet Protocol), 웹에서 사용되는 HTTP(HyperText Transfer Protocol), 파일을 주고 받을 때 사용되는 FTP(File Transfer Protocol) 등이 있습니다.
 
+### [HTTP(Hypertext Transfer Protocol](https://en.wikipedia.org/wiki/HTTP)
+[[HTTP]]]는 통신 프로토콜인 TCP/IP를 기반으로 하는 애플리케이션 수준 프로토콜
 
-# 웹의 동작 원리
+
+# [[웹의 동작 방식]]
 
 ![[Pasted image 20240624164611.png]]
 
