@@ -238,13 +238,60 @@ gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
 이후 Bind point를 통해 Buffer를 참조하므로써, Buffer에 데이터를 설정할 수 있음.
 
 ```js
-var position = [
+var positions = [
 0, 0,
 0, 0.5,
 0.7, 0,
 ];
 gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(position), gl.STATIC_DRAW);
 ```
+
+
+WebGL의 엄격한 형식의 데이터를 필요로 하므로  JS Array인 `positions`값을 `Flaot32Array(position)`을 사용하여, 32bit Flaot Array를 생성.
+`gl.bufferData`는 그 배열을 GPU에 있는 `positionBuffer`에 복사한다.
+위에서, `ARRAY_BUFFER`의 BindPoint `positionBuffer`를 Bind 해둔 상태이기 때문에 복사되는 것.
+
+`gl.STATIC_DRAW`는 WebGL에 우리가 데이터를 어떻게 사용할 것인지에 대한 힌트를 제공
+WebGL은 몇몇 상황들을 최적화 하기 위해 이 힌트를 사용함.
+
+ - `gl.STATIC_DRAW` 데이터를 자주 변경하지 않음
+
+### Get Data to Attribute
+---
+
+```js
+var vao = gl.createVertexArray();
+```
+ 
+이후, 수행할 모든 Attribute 설정이 위 Attribute 상태 집합에 적용되도록 하기 위해, 사용중인 Vertex Array로 설정
+
+```js 
+gl.bindVertexArray(vao);
+```
+
+ 먼저 attribute를 켜야 합니다. 이는 WebGL에게 우리가 버퍼에서 데이터를 가져오려고 한다는 것을 알려주는 것입니다. attribute을 켜지 않으면 attribute는 상수 값을 가지게 됩니다.
+ 
+```js
+gl.enableVertexAttribArray(positionAttributeLocation);
+
+```
+
+```js
+var size = 2;         //iteration 마다 두개 구성 요소 사용
+var type = gl.FLOAT;  // 데이터는 32bit 부동 소수점
+var normalize = false; // 데이터를 정규화 하지 않음
+var stride = 0; // 0인 경우, 실행할 때마다 'size' * sizeof(type)' 만큼 다음위치로 이동
+var offset = 0; // 버퍼의 시작부터 데이터를 읽어옴
+gl.vertexAttribPointer(
+positionAttributeLocation, size, type, normalize, stride, offset)
+```
+
+
+
+
+
+
+
 
 
 
