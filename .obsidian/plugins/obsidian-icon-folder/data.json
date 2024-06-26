@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiStockFill",
+      "RiBook3Line",
       "RiCupLine",
       "RiStickyNoteLine",
-      "RiGraduationCapLine",
-      "RiPushpinFill",
-      "RiStackLine"
+      "RiGraduationCapLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -41,11 +41,23 @@
     "iconName": "RiTodoLine",
     "iconColor": "#ff3838"
   },
-  "ARCHIVE": "RiStackLine",
+  "ARCHIVE": {
+    "iconName": "RiStackLine",
+    "iconColor": "#ebfcff"
+  },
   "AREA": {
     "iconName": "RiFolderChartLine",
     "iconColor": "#58fef3"
   },
   "PROJECT/2024": "RiStickyNoteLine",
-  "AREA/COFFEE": "RiCupLine"
+  "AREA/COFFEE": "RiCupLine",
+  "PROJECT/TODO LIST.md": {
+    "iconName": "RiPushpinFill",
+    "iconColor": "#ff0066"
+  },
+  "PROJECT/GRAPHICS & NETWORKS 학습.md": "RiBook3Line",
+  "AREA/주식.md": {
+    "iconName": "RiStockFill",
+    "iconColor": "#7ca3fe"
+  }
 }

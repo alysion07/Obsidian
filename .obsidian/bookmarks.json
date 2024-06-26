@@ -9,6 +9,18 @@
           "ctime": 1718936279855,
           "items": [
             {
+              "type": "file",
+              "ctime": 1719360687621,
+              "path": "PROJECT/TODO LIST.md",
+              "subpath": "#^-"
+            },
+            {
+              "type": "file",
+              "ctime": 1719360687621,
+              "path": "PROJECT/GRAPHICS & NETWORKS 학습.md",
+              "subpath": "#^-"
+            },
+            {
               "type": "group",
               "ctime": 1718947020408,
               "items": [
