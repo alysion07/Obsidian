@@ -59,6 +59,41 @@
       ],
       "id": "a633bebd-34aa-4171-b4f5-0fbbd04f2352",
       "name": "Untitled project"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "PROJECT",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "17800f68-fe09-4ae9-ab07-8f9ac3754f0d",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "b3d8d9f7-afce-40af-8ffa-32ba0881c49c",
+      "name": "Untitled project 1"
     }
   ],
   "archives": [],
