@@ -1,0 +1,21 @@
+{
+  "calendarSources": [
+    {
+      "type": "ical",
+      "color": "#d76cfe",
+      "url": "https://calendar.google.com/calendar/ical/454bfacc99137310aacd7e70240cba3be01eb095f5d243953fb354156ee1f651%40group.calendar.google.com/private-239dd16ce46ea6b10bb7e312338d57df/basic.ics"
+    },
+    {
+      "type": "local",
+      "color": "#9efff9",
+      "directory": "PROJECT"
+    }
+  ],
+  "defaultCalendar": 0,
+  "firstDay": 0,
+  "initialView": {
+    "desktop": "dayGridMonth",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": false
+}

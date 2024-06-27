@@ -1,6 +1,5 @@
 [
   "obsidian-git",
-  "calendar",
   "execute-code",
   "obsidian-icon-folder",
   "remember-cursor-position",
@@ -10,5 +9,6 @@
   "dataview",
   "custom-sort",
   "obsidian-enhancing-export",
-  "obsidian-imgur-plugin"
+  "obsidian-imgur-plugin",
+  "obsidian-full-calendar"
 ]
