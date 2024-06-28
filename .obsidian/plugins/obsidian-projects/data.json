@@ -5,66 +5,9 @@
       "fieldConfig": {},
       "defaultName": "",
       "templates": [],
-      "excludedNotes": [],
-      "isDefault": false,
-      "dataSource": {
-        "kind": "folder",
-        "config": {
-          "path": "",
-          "recursive": false
-        }
-      },
-      "newNotesFolder": "",
-      "views": [
-        {
-          "config": {
-            "orderFields": [
-              "name",
-              "path",
-              "kanban-plugin"
-            ]
-          },
-          "filter": {
-            "conjunction": "and",
-            "conditions": []
-          },
-          "colors": {
-            "conditions": [
-              {
-                "color": "#1ca2ce",
-                "condition": {
-                  "field": "name",
-                  "operator": "is-empty",
-                  "enabled": true
-                }
-              },
-              {
-                "color": "#a882ff",
-                "condition": {
-                  "field": "name",
-                  "operator": "contains",
-                  "enabled": true,
-                  "value": "t"
-                }
-              }
-            ]
-          },
-          "sort": {
-            "criteria": []
-          },
-          "id": "61781282-7806-41d2-9af8-7ea9527511f6",
-          "name": "Table",
-          "type": "table"
-        }
+      "excludedNotes": [
+        ""
       ],
-      "id": "a633bebd-34aa-4171-b4f5-0fbbd04f2352",
-      "name": "Untitled project"
-    },
-    {
-      "fieldConfig": {},
-      "defaultName": "",
-      "templates": [],
-      "excludedNotes": [],
       "isDefault": false,
       "dataSource": {
         "kind": "folder",
@@ -76,7 +19,24 @@
       "newNotesFolder": "",
       "views": [
         {
-          "config": {},
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "width": 305
+              },
+              "name": {
+                "width": 333
+              }
+            },
+            "orderFields": [
+              "name",
+              "path",
+              "aliases",
+              "Begin Date",
+              "completed",
+              "tags"
+            ]
+          },
           "filter": {
             "conjunction": "and",
             "conditions": []
@@ -87,13 +47,34 @@
           "sort": {
             "criteria": []
           },
-          "id": "17800f68-fe09-4ae9-ab07-8f9ac3754f0d",
+          "id": "493604c7-cbc3-48e5-9316-b490c43f8ac0",
           "name": "Table",
           "type": "table"
+        },
+        {
+          "config": {
+            "coverField": "thumbnail_url",
+            "fitStyle": "cover",
+            "cardWidth": 200,
+            "includeFields": []
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "816cb79e-3f32-4587-8cdb-01eb01535ab9",
+          "name": "Gallery",
+          "type": "gallery"
         }
       ],
-      "id": "b3d8d9f7-afce-40af-8ffa-32ba0881c49c",
-      "name": "Untitled project 1"
+      "id": "392ffc75-d17b-4e0d-a28a-617ad80a300c",
+      "name": "POST_PROC"
     }
   ],
   "archives": [],
@@ -103,6 +84,6 @@
       "quoteStrings": "PLAIN"
     },
     "commands": [],
-    "linkBehavior": "open-editor"
+    "linkBehavior": "open-note"
   }
 }
