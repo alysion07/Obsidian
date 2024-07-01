@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiLayoutHorizontalFill",
       "RiFileCopy2Fill",
       "RiStockFill",
       "RiBook3Line",
-      "RiCupLine",
-      "RiStickyNoteLine"
+      "RiCupLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -60,5 +60,6 @@
     "iconName": "RiStockFill",
     "iconColor": "#7ca3fe"
   },
-  "TEMPLATE": "RiFileCopy2Fill"
+  "TEMPLATE": "RiFileCopy2Fill",
+  "ARCHIVE/Annual Notes": "RiLayoutHorizontalFill"
 }
