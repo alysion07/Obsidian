@@ -291,10 +291,9 @@ positionAttributeLocation, size, type, normalize, stride, offset)
 
 캔버스가 표시되는 실제 크기와 픽셀 수를 일치 시키기 위해서 [여기에서 볼 수 있는 헬퍼 함수를 사용하고 있습니다](https://webgl2fundamentals.org/webgl/lessons/ko/webgl-resizing-the-canvas.html).
 
-
-
-
-
+``` js
+	webglUtils.resizeCanvasToDisplaySize(gl.canvas);
+```
 ---
 #vertexshader #fragmentshader #attribute #buffer #varying #uniform #GLSL #webgl
 
