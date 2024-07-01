@@ -287,13 +287,9 @@ positionAttributeLocation, size, type, normalize, stride, offset)
 ```
 
 
+그리기 전에 캔버스 크기를 디스플레이 크기와 일치하도록 조정 해야 합니다. 캔버스에는 이미지와 마찬가지로 두 가지 크기가 있습니다. 실제로 포함되어있는 픽셀의 수와 표시되는 크기가 따로 있습니다. CSS가 캔버스가 표시되는 크기를 결정합니다. 다른 방법보다 훨씬 유연하기 때문에 **항상 CSS를 사용해 원하는 캔버스 크기를 설정해야 합니다**.
 
-
-
-
-
-
-
+캔버스가 표시되는 실제 크기와 픽셀 수를 일치 시키기 위해서 [여기에서 볼 수 있는 헬퍼 함수를 사용하고 있습니다](https://webgl2fundamentals.org/webgl/lessons/ko/webgl-resizing-the-canvas.html).
 
 
 

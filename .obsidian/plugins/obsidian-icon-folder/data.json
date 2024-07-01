@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiBookletLine",
+      "RiQuillPenFill",
       "RiLayoutHorizontalFill",
       "RiFileCopy2Fill",
-      "RiStockFill",
-      "RiBook3Line",
-      "RiCupLine"
+      "RiStockFill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -55,11 +55,12 @@
     "iconName": "RiPushpinFill",
     "iconColor": "#ff0066"
   },
-  "PROJECT/GRAPHICS & NETWORKS 학습.md": "RiBook3Line",
   "AREA/주식.md": {
     "iconName": "RiStockFill",
     "iconColor": "#7ca3fe"
   },
   "TEMPLATE": "RiFileCopy2Fill",
-  "ARCHIVE/Annual Notes": "RiLayoutHorizontalFill"
+  "ARCHIVE/Annual Notes": "RiLayoutHorizontalFill",
+  "PROJECT/STUDY": "RiBookletLine",
+  "PROJECT/STUDY/GRAPHICS & NETWORKS 학습.md": "RiBook3Line"
 }

@@ -1,7 +1,7 @@
 ---
-description: 농기계 제작회사
+description: 농기계 제작 회사, 존 디어의 국내 딜러사
 Reference URL: https://tym.world/ko/
-tags: []
+tags:
 ---
 # Pix4D
 ----
@@ -16,3 +16,4 @@ tags: []
 - 2D 공장 도면 
 - 3D 부품 데이터 
 - #PDM : 제품 데이터 관리
+-  물류 관련 업무까지 예상됨
