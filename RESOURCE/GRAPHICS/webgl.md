@@ -294,6 +294,16 @@ positionAttributeLocation, size, type, normalize, stride, offset)
 ``` js
 	webglUtils.resizeCanvasToDisplaySize(gl.canvas);
 ```
+
+![[vertex-shader-anim.gif]]
+
+
+
+
+
+
+
+
 ---
 #vertexshader #fragmentshader #attribute #buffer #varying #uniform #GLSL #webgl
 
