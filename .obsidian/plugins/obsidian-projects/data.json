@@ -5,9 +5,7 @@
       "fieldConfig": {},
       "defaultName": "",
       "templates": [],
-      "excludedNotes": [
-        ""
-      ],
+      "excludedNotes": [],
       "isDefault": false,
       "dataSource": {
         "kind": "folder",
@@ -19,24 +17,7 @@
       "newNotesFolder": "",
       "views": [
         {
-          "config": {
-            "fieldConfig": {
-              "path": {
-                "width": 305
-              },
-              "name": {
-                "width": 333
-              }
-            },
-            "orderFields": [
-              "name",
-              "path",
-              "aliases",
-              "Begin Date",
-              "completed",
-              "tags"
-            ]
-          },
+          "config": {},
           "filter": {
             "conjunction": "and",
             "conditions": []
@@ -47,34 +28,13 @@
           "sort": {
             "criteria": []
           },
-          "id": "493604c7-cbc3-48e5-9316-b490c43f8ac0",
+          "id": "dd44224c-12b4-422b-bc83-269bf782a5e9",
           "name": "Table",
           "type": "table"
-        },
-        {
-          "config": {
-            "coverField": "thumbnail_url",
-            "fitStyle": "cover",
-            "cardWidth": 200,
-            "includeFields": []
-          },
-          "filter": {
-            "conjunction": "and",
-            "conditions": []
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": []
-          },
-          "id": "816cb79e-3f32-4587-8cdb-01eb01535ab9",
-          "name": "Gallery",
-          "type": "gallery"
         }
       ],
-      "id": "392ffc75-d17b-4e0d-a28a-617ad80a300c",
-      "name": "POST_PROC"
+      "id": "6e0af285-a83c-4a6c-b088-45564bcfe4f5",
+      "name": "Untitled project"
     }
   ],
   "archives": [],

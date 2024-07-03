@@ -3,5 +3,7 @@
   "nativeMenus": false,
   "enabledCssSnippets": [
     "Image Align"
-  ]
+  ],
+  "accentColor": "#5c7cff",
+  "theme": "obsidian"
 }
