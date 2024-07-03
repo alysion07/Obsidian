@@ -17,3 +17,35 @@ img[alt*="right"] {
 .markdown-preview-view strong {
     color: #C5D86D !important; /* Replace with your desired color */
 }
+
+.markdown-preview-view h3 {
+    color: #AFE0CE; /* Replace with your desired color */
+  }
+  
+  /* Custom <h3> header color for edit mode */
+  .cm-s-obsidian span.cm-header-3 {
+    color: #AFE0CE !important; /* Replace with your desired color */
+  }
+
+  .markdown-preview-view h5 {
+    color: #86615C; /* Replace with your desired color */
+  }
+  
+  /* Custom <h3> header color for edit mode */
+  .cm-s-obsidian span.cm-header-5 {
+    color: #86615C !important; /* Replace with your desired color */
+  }
+
+/*
+.callout {
+    background-color: #353b3d;
+  }
+   Custom styles for callout title
+  .callout-title {
+    color: #ffffff; 
+  } */
+
+  .markdown h5 {
+    color: #86615C; /* Replace with your desired color */
+  }
+  
