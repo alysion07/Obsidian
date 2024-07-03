@@ -12,6 +12,8 @@ img[alt*="right"] {
     margin-top: 2px;
 }
 
-body.theme-dark {
-    --bold-color: rgb(39, 148, 236) !important;
-  }
+/* Custom bold text color for edit mode */
+.cm-s-obsidian .cm-strong,
+.markdown-preview-view strong {
+    color: #C5D86D !important; /* Replace with your desired color */
+}
