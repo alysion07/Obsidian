@@ -12,40 +12,42 @@ img[alt*="right"] {
     margin-top: 2px;
 }
 
-/* Custom bold text color for edit mode */
 .cm-s-obsidian .cm-strong,
 .markdown-preview-view strong {
-    color: #C5D86D !important; /* Replace with your desired color */
+    color: #81b37c !important;
 }
 
+.cm-s-obsidian span.cm-header-2,
+.markdown-preview-view h2 {
+  font-size: 1.8em;
+  border-bottom: 2px solid #4c644a;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+/*
 .markdown-preview-view h3 {
-    color: #AFE0CE; /* Replace with your desired color */
+    color: #AFE0CE;
   }
   
-  /* Custom <h3> header color for edit mode */
   .cm-s-obsidian span.cm-header-3 {
-    color: #AFE0CE !important; /* Replace with your desired color */
-  }
+    color: #AFE0CE !important;
 
   .markdown-preview-view h5 {
-    color: #86615C; /* Replace with your desired color */
+    color: #86615C; 
   }
   
-  /* Custom <h3> header color for edit mode */
   .cm-s-obsidian span.cm-header-5 {
-    color: #86615C !important; /* Replace with your desired color */
-  }
+    color: #86615C !important; 
 
-/*
+
 .callout {
     background-color: #353b3d;
   }
    Custom styles for callout title
   .callout-title {
     color: #ffffff; 
-  } */
+  } 
 
   .markdown h5 {
-    color: #86615C; /* Replace with your desired color */
-  }
-  
+    color: #86615C; 
+  */

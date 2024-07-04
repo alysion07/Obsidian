@@ -1,9 +1,11 @@
 {
-  "cssTheme": "Things",
+  "cssTheme": "Sanctum",
   "nativeMenus": false,
   "enabledCssSnippets": [
     "Image Align"
   ],
-  "accentColor": "#c5d86d",
-  "theme": "obsidian"
+  "accentColor": "",
+  "theme": "obsidian",
+  "interfaceFontFamily": "",
+  "textFontFamily": ""
 }
