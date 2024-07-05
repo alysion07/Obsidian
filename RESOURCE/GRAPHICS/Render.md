@@ -1,3 +1,3 @@
-[[WebGL]]
+[[1. WebGL]]
 [[WebGPU]]
 [[Shader]]

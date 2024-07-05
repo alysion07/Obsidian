@@ -32,6 +32,31 @@
               "ctime": 1718947020408,
               "items": [],
               "title": "GRAPHICS"
+            },
+            {
+              "type": "group",
+              "ctime": 1720140145011,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1720140282502,
+                  "path": "PROJECT/STUDY/GRAPHICS & NETWORKS 학습.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1720140145011,
+                  "items": [],
+                  "title": "WebGL2"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1720140145011,
+                  "path": "PROJECT/STUDY/Tutorial 01.md",
+                  "subpath": "#^-"
+                }
+              ],
+              "title": "STUDY"
             }
           ],
           "title": "PROJECT"
