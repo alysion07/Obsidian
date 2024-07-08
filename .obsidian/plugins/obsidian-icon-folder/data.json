@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiTeamLine",
       "RiBookletLine",
       "RiQuillPenFill",
       "RiLayoutHorizontalFill",
-      "RiFileCopy2Fill",
-      "RiStockFill"
+      "RiFileCopy2Fill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -62,5 +62,9 @@
   "TEMPLATE": "RiFileCopy2Fill",
   "ARCHIVE/Annual Notes": "RiLayoutHorizontalFill",
   "PROJECT/STUDY": "RiBookletLine",
-  "PROJECT/STUDY/GRAPHICS & NETWORKS 학습.md": "RiBook3Line"
+  "PROJECT/STUDY/GRAPHICS & NETWORKS 학습.md": "RiBook3Line",
+  "PROJECT/GraphicsDevelopment.md": {
+    "iconName": "RiTeamLine",
+    "iconColor": "#aae8c8"
+  }
 }
