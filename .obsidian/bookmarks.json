@@ -10,6 +10,18 @@
           "items": [
             {
               "type": "file",
+              "ctime": 1720417568796,
+              "path": "PROJECT/GraphicsDevelopment.md",
+              "subpath": "#^-"
+            },
+            {
+              "type": "file",
+              "ctime": 1720417568796,
+              "path": "PROJECT/POSCO E&C & PIX4D.md",
+              "subpath": "#^-"
+            },
+            {
+              "type": "file",
               "ctime": 1719360687621,
               "path": "PROJECT/TODO LIST.md",
               "subpath": "#^-"
@@ -51,24 +63,6 @@
                 }
               ],
               "title": "STUDY"
-            },
-            {
-              "type": "file",
-              "ctime": 1720417568796,
-              "path": "PROJECT/GraphicsDevelopment.md",
-              "subpath": "#^-"
-            },
-            {
-              "type": "file",
-              "ctime": 1720417568796,
-              "path": "PROJECT/GraphicsDevelopment.md",
-              "subpath": "#^-"
-            },
-            {
-              "type": "file",
-              "ctime": 1720417568796,
-              "path": "PROJECT/POSCO E&C & PIX4D.md",
-              "subpath": "#^-"
             }
           ],
           "title": "PROJECT"
