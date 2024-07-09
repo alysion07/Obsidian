@@ -158,7 +158,7 @@ glVertexArrayAttribBinding(my_vao, POSITION_ATTRIBUTE_INDEX, MY_VBO_BINDING);
 
 ---
 
-```cpp
+```cpp title:'1번 Attribute에 color 설정'
 // 1번 attribute로 color를 설정할 것임
 const int COLOR_ATTRIBUTE_INDEX = 1;
 // my_vao의 1번 attribute 활성화
@@ -174,79 +174,10 @@ glVertexArrayAttribFormat(my_vao,                     // VAO 번호
                             offsetof(Vertex, color)); // Vertex 내의 color 데이터의 위치
 ```
 
+#### VAO 설정 완료
+![[Pasted image 20240709172744.png|center]]
 
-
----
-
-
-## 사용 목적
-
-VAO의 사용 목적은 Vertex buffer가 여러 개 있을 때 각 버퍼마다 Layout(Attribute를 지정해서 버퍼 내에 어떤 정보가 어디에 얼만큼 위치하는지 지정해두는 것)을 개별적으로 지정해둘 필요가 없게 하는 것이다.
-
-즉 Binding된 Vertex Buffer가 변경될 때마다 매번 그 버퍼가 가진 Attribute들에 대해 glVertexAttribPointer()를 호출할 필요가 없다는 의미다.
-
-```cpp
-glBindBuffer(buffer1);
-glVertexAttribPointer(...);
-...
-
-glBindBuffer(buffer2);
-glEnableVertexAttribArray(...);
-```
-
-이런식으로 할 필요가 없어진다는 의미다.
-
-참고: [glVertexAttribPointer needed everytime glBindBuffer is called?](https://stackoverflow.com/questions/7617668/glvertexattribpointer-needed-everytime-glbindbuffer-is-called)
-참고:  [https://stackoverflow.com/a/57258564/14134221](https://stackoverflow.com/a/57258564/14134221)
-참고:  [What are Vertex Array Objects?](https://stackoverflow.com/questions/11821336/what-are-vertex-array-objects)
-
-  
-쉽게 말해, 점들의 좌표값 4개를 저장하고 있는, 사각형을 나타내는 어떤 버퍼가 있다고 가정해보자.  
-이 사각형 버퍼가 두 종류가 있다면, 즉 사각형 A와 사각형 B가 있다면,  
-우리는 사각형A와 사각형B에 개별적으로 레이아웃을 지정해주어야 할 것이다. (즉 A 버퍼는 꼭짓점 4개가 float으로 들어있고, B 버퍼에도 꼭짓점 4개가 float으로 들어있다는 걸 개별적으로 두번 지정해주어야 한다)  
-그러나 VAO를 사용하면 이 과정을 줄일 수 있다.
-
-
----
-
-
-## 전체 코드 
-
-```cpp
- /* 
- VAO를 생성하고 바인딩한다
-위에서 OPENGL_CORE_PROFILE을 사용중이기 때문이다. 만약 여기서 VAO를 바인딩해주지 않는다면 그동안 사용해왔던 코드인 glEnableVertexAttribArray(0);를 호출할 때 에러가 발생한다.
-glEnableVertexAttribArray(0);는 기본적으로 opengl이 만들어준 0번 VAO에 AttribArray를 연결해준다는 의미인데, CORE_PROFILE에서는 0번 VAO를 만들어주지 않기 때문이다.
-*/
-unsigned int vao;
-// VAO 1개를 uint vao id로 만들어준다.
-GLCall( glGenVertexArrays(1, &vao) );
-// 이렇게 만든 VAO를 bind해준다.
-GLCall( glBindVertexArray(vao) ); 
-
-// Vertex buffer (혹은 VBO)를 생성한다
-unsigned int buffer;
-GLCall( glGenBuffers(1, &buffer) );
-GLCall( glBindBuffer(GL_ARRAY_BUFFER, buffer) );
-GLCall( glBufferData(GL_ARRAY_BUFFER, 4 * 2 * sizeof(float), positions, GL_STATIC_DRAW) ); // define vertex layout (레이아웃, 즉 vertex buffer의 Attrib 들을 설정한다)
-
-/*
-이 아랫줄 코드가 굉장히 중요하다.
-이 코드가 Vertex Array와 Vertex Buffer을 연결해주는 역할을 한다.
-glVertexAttribPointer의 첫 아규먼트인 0은 현재 바인딩된 Vertex Array의 0번 인덱스에 해당 Attrib Pointer가 가리키는 Vertex Buffer을 연결한다는 의미이다. 즉 만약 또 다른 Attrib Pointer을 연결해주려면 GLCall( glVertexAttribPointer(1, ... , Attrib pointer); 형식으로 작성하면 된다. 
-*/
-        GLCall( glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), 0) );// This links the attrib pointer wih the buffer at index 0 in the vertex array object      
-        GLCall( glEnableVertexAttribArray(0) ); //https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=jungwan82&logNo=20108365931
-```
-
- 참고: [Vertex Array Pointer](  https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glVertexAttribPointer.xhtml)
- 참고: [Concept behind OpenGL's 'Bind' functions - Stack Overflow](https://stackoverflow.com/questions/9758884/concept-behind-opengls-bind-functions)
-
-
-간단히 말해, OpenGL에게 지금 선택한 오브젝트가 무엇이다 라고 전해주는 것이다.  
-포토샵 같은걸 쓸 때 마우스로 그림을 그리면 현재 선택된 레이어에 그려지는 것처럼, 미리 무언가를 선택한 이후(OpenGL에서는 버퍼나 셰이더 등 다양한 게 될 수 있다) 행위를 해야 그 선택한 대상에 행위가 처리된다. (선택한 레이어에 그림이 그려진다)
-
-```cpp
+```cpp title:'전체 코드'
 #include <iostream>
 
 #define GLFW_INCLUDE_NONE
@@ -392,3 +323,76 @@ int main() {
     return 0;
 }
 ```
+
+
+
+---
+
+
+## 사용 목적
+
+VAO의 사용 목적은 Vertex buffer가 여러 개 있을 때 각 버퍼마다 Layout(Attribute를 지정해서 버퍼 내에 어떤 정보가 어디에 얼만큼 위치하는지 지정해두는 것)을 개별적으로 지정해둘 필요가 없게 하는 것이다.
+
+즉 Binding된 Vertex Buffer가 변경될 때마다 매번 그 버퍼가 가진 Attribute들에 대해 glVertexAttribPointer()를 호출할 필요가 없다는 의미다.
+
+```cpp
+glBindBuffer(buffer1);
+glVertexAttribPointer(...);
+...
+
+glBindBuffer(buffer2);
+glEnableVertexAttribArray(...);
+```
+
+이런식으로 할 필요가 없어진다는 의미다.
+
+참고: [glVertexAttribPointer needed everytime glBindBuffer is called?](https://stackoverflow.com/questions/7617668/glvertexattribpointer-needed-everytime-glbindbuffer-is-called)
+참고:  [https://stackoverflow.com/a/57258564/14134221](https://stackoverflow.com/a/57258564/14134221)
+참고:  [What are Vertex Array Objects?](https://stackoverflow.com/questions/11821336/what-are-vertex-array-objects)
+
+  
+쉽게 말해, 점들의 좌표값 4개를 저장하고 있는, 사각형을 나타내는 어떤 버퍼가 있다고 가정해보자.  
+이 사각형 버퍼가 두 종류가 있다면, 즉 사각형 A와 사각형 B가 있다면,  
+우리는 사각형A와 사각형B에 개별적으로 레이아웃을 지정해주어야 할 것이다. (즉 A 버퍼는 꼭짓점 4개가 float으로 들어있고, B 버퍼에도 꼭짓점 4개가 float으로 들어있다는 걸 개별적으로 두번 지정해주어야 한다)  
+그러나 VAO를 사용하면 이 과정을 줄일 수 있다.
+
+
+---
+
+
+## 전체 코드 
+
+```cpp
+ /* 
+ VAO를 생성하고 바인딩한다
+위에서 OPENGL_CORE_PROFILE을 사용중이기 때문이다. 만약 여기서 VAO를 바인딩해주지 않는다면 그동안 사용해왔던 코드인 glEnableVertexAttribArray(0);를 호출할 때 에러가 발생한다.
+glEnableVertexAttribArray(0);는 기본적으로 opengl이 만들어준 0번 VAO에 AttribArray를 연결해준다는 의미인데, CORE_PROFILE에서는 0번 VAO를 만들어주지 않기 때문이다.
+*/
+unsigned int vao;
+// VAO 1개를 uint vao id로 만들어준다.
+GLCall( glGenVertexArrays(1, &vao) );
+// 이렇게 만든 VAO를 bind해준다.
+GLCall( glBindVertexArray(vao) ); 
+
+// Vertex buffer (혹은 VBO)를 생성한다
+unsigned int buffer;
+GLCall( glGenBuffers(1, &buffer) );
+GLCall( glBindBuffer(GL_ARRAY_BUFFER, buffer) );
+GLCall( glBufferData(GL_ARRAY_BUFFER, 4 * 2 * sizeof(float), positions, GL_STATIC_DRAW) ); // define vertex layout (레이아웃, 즉 vertex buffer의 Attrib 들을 설정한다)
+
+/*
+이 아랫줄 코드가 굉장히 중요하다.
+이 코드가 Vertex Array와 Vertex Buffer을 연결해주는 역할을 한다.
+glVertexAttribPointer의 첫 아규먼트인 0은 현재 바인딩된 Vertex Array의 0번 인덱스에 해당 Attrib Pointer가 가리키는 Vertex Buffer을 연결한다는 의미이다. 즉 만약 또 다른 Attrib Pointer을 연결해주려면 GLCall( glVertexAttribPointer(1, ... , Attrib pointer); 형식으로 작성하면 된다. 
+*/
+        GLCall( glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), 0) );// This links the attrib pointer wih the buffer at index 0 in the vertex array object      
+        GLCall( glEnableVertexAttribArray(0) ); //https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=jungwan82&logNo=20108365931
+```
+
+ 참고: [Vertex Array Pointer](  https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glVertexAttribPointer.xhtml)
+ 참고: [Concept behind OpenGL's 'Bind' functions - Stack Overflow](https://stackoverflow.com/questions/9758884/concept-behind-opengls-bind-functions)
+
+
+간단히 말해, OpenGL에게 지금 선택한 오브젝트가 무엇이다 라고 전해주는 것이다.  
+포토샵 같은걸 쓸 때 마우스로 그림을 그리면 현재 선택된 레이어에 그려지는 것처럼, 미리 무언가를 선택한 이후(OpenGL에서는 버퍼나 셰이더 등 다양한 게 될 수 있다) 행위를 해야 그 선택한 대상에 행위가 처리된다. (선택한 레이어에 그림이 그려진다)
+
