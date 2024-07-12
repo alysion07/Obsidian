@@ -349,7 +349,7 @@
       "advanced": {
         "gradientHighlights": false,
         "gradientHighlightsColourStop": "70%",
-        "languageBorderColour": false,
+        "languageBorderColour": true,
         "languageBorderWidth": 5,
         "iconSize": 28
       }
@@ -428,7 +428,7 @@
           "lineColour": "--color-base-30"
         },
         "highlights": {
-          "activeCodeblockLineColour": "#7C2D66",
+          "activeCodeblockLineColour": "#DE00A0",
           "activeEditorLineColour": "--color-base-20",
           "defaultColour": "#3BB6FF1F",
           "alternativeHighlights": {
@@ -451,7 +451,7 @@
   },
   "newTheme": "",
   "newHighlight": "",
-  "exampleCodeblockParameters": "python title:foo",
+  "exampleCodeblockParameters": "python title:foo hl:1",
   "exampleCodeblockContent": "print(\"This line is very long and should be used as an example for how the plugin deals with wrapping and unwrapping very long lines given the choice of codeblock parameters and settings.\")\nprint(\"This line is highlighted.\")",
   "exampleInlineCode": "{python icon title:foo} print(\"This is inline code\")",
   "decoratePrint": true,
