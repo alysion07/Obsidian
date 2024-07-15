@@ -17,5 +17,6 @@ GLSL Editor: https://thebookofshaders.com/edit.php
 - [[6. Image Processing Continued]]
 - [[7. 2D Translation]]
 - [[8. 2D Rotation]]
-- 
+- [[9. 2D Scale]]
+- [[10. Matrix]] 
 
