@@ -1,8 +1,13 @@
 ---
 Begin Date: 2024-06-28
 GLSL Editor: https://thebookofshaders.com/edit.php
+Reference URL: https://www.songho.ca/
+ref:
 ---
+## UTIL
 
+AI : https://www.perplexity.ai/
+AI: https://claude.ai/
 ## NETWORKS
 
 - [[NETWORK]]
