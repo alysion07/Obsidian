@@ -4,7 +4,10 @@ GLSL Editor: https://thebookofshaders.com/edit.php
 Reference URL: https://www.songho.ca/
 ref:
 ---
-## UTIL
+## REFERENCE
+
+[(389) The Cherno - YouTube](https://www.youtube.com/@TheCherno)
+[Learn OpenGL, extensive tutorial resource for learning Modern OpenGL](https://learnopengl.com/)
 
 AI : https://www.perplexity.ai/
 AI: https://claude.ai/
@@ -24,4 +27,5 @@ AI: https://claude.ai/
 - [[8. 2D Rotation]]
 - [[9. 2D Scale]]
 - [[10. Matrix]] 
-
+- [[11. 3D Orthographic]]
+- 
