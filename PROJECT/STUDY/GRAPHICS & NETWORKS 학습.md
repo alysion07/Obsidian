@@ -7,10 +7,15 @@ ref:
 ## REFERENCE
 
 [(389) The Cherno - YouTube](https://www.youtube.com/@TheCherno)
+
 [Learn OpenGL, extensive tutorial resource for learning Modern OpenGL](https://learnopengl.com/)
 
-AI : https://www.perplexity.ai/
+[Calculating the gluPerspective matrix and other OpenGL matrix maths](https://unspecified.wordpress.com/2012/06/21/calculating-the-gluperspective-matrix-and-other-opengl-matrix-maths/)
+
+
+AI: https://www.perplexity.ai/
 AI: https://claude.ai/
+
 ## NETWORKS
 
 - [[NETWORK]]
