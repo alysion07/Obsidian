@@ -19,9 +19,11 @@ AI: https://claude.ai/
 ## NETWORKS
 
 - [[NETWORK]]
+
+
+
 ## 기초 이론 학습  
 
--  
 - [[1. WebGL]]
 - [[2. Canvas Resizing]]
 - [[3. 작동 원리]]
@@ -33,4 +35,9 @@ AI: https://claude.ai/
 - [[9. 2D Scale]]
 - [[10. Matrix]] 
 - [[11. 3D Orthographic]]
+- [[12. 3D Perspective]]
+- [[13. Camera]]
+- [[14. Matrix Naming]]
+- [[15. Animation]]
+- [[16. Texture]]
 - 

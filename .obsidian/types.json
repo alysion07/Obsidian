@@ -26,6 +26,7 @@
     "completed": "checkbox",
     "allDay": "date",
     "Task1": "checkbox",
-    "task2": "date"
+    "task2": "date",
+    "End Date": "date"
   }
 }
