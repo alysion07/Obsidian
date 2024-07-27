@@ -7,16 +7,23 @@ ref:
 ## REFERENCE
 
 [(389) The Cherno - YouTube](https://www.youtube.com/@TheCherno)
+
 [Learn OpenGL, extensive tutorial resource for learning Modern OpenGL](https://learnopengl.com/)
 
-AI : https://www.perplexity.ai/
+[Calculating the gluPerspective matrix and other OpenGL matrix maths](https://unspecified.wordpress.com/2012/06/21/calculating-the-gluperspective-matrix-and-other-opengl-matrix-maths/)
+
+
+AI: https://www.perplexity.ai/
 AI: https://claude.ai/
+
 ## NETWORKS
 
 - [[NETWORK]]
+
+
+
 ## 기초 이론 학습  
 
--  
 - [[1. WebGL]]
 - [[2. Canvas Resizing]]
 - [[3. 작동 원리]]
@@ -28,4 +35,9 @@ AI: https://claude.ai/
 - [[9. 2D Scale]]
 - [[10. Matrix]] 
 - [[11. 3D Orthographic]]
+- [[12. 3D Perspective]]
+- [[13. Camera]]
+- [[14. Matrix Naming]]
+- [[15. Animation]]
+- [[16. Texture]]
 - 
