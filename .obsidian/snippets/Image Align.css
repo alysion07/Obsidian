@@ -1,5 +1,4 @@
-img[alt*="center"],
-a img[alt*="center"] {
+img[alt*="center"] {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -11,6 +10,13 @@ img[alt*="right"] {
     margin-left: 1rem;
     margin-bottom: 2px;
     margin-top: 2px;
+}
+img[alt*="left-align"] {
+  float: left;
+  margin-right: 10px;
+}
+img[alt*="portrait"] {
+  border-radius: 100%;
 }
 
 .cm-s-obsidian .cm-strong,
@@ -26,9 +32,6 @@ img[alt*="right"] {
   margin-bottom: 15px;
 }
 
-div[src$="#center"] {
-  text-align:center;
-}
 /*
 .markdown-preview-view h3 {
     color: #AFE0CE;
