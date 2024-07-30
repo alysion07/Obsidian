@@ -25,6 +25,10 @@ img[alt*="right"] {
   padding-bottom: 5px;
   margin-bottom: 15px;
 }
+
+div[src$="#center"] {
+  text-align:center;
+}
 /*
 .markdown-preview-view h3 {
     color: #AFE0CE;
