@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiJavascriptFill",
       "RiTeamLine",
       "RiBookletLine",
       "RiQuillPenFill",
-      "RiLayoutHorizontalFill",
-      "RiFileCopy2Fill"
+      "RiLayoutHorizontalFill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -67,5 +67,6 @@
   "PROJECT/GraphicsDevelopment.md": {
     "iconName": "RiTeamLine",
     "iconColor": "#aae8c8"
-  }
+  },
+  "RESOURCE/Java Script": "RiJavascriptFill"
 }
