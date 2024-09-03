@@ -1,9 +1,15 @@
 
-1초에 몇 번 바뀌는지의 수를 **주사율(Refresh Rate)** 이라고 부르고, 단위는 **Hz (헤르츠)** 를 씁니다. 
-
-그래픽카드는 #FrameBuffer 라는 메모리 영역을 읽어 화면을 띄웁니다.
+1초에 몇 번 바뀌는지의 수를 **주사율(Refresh Rate)** 이라고 부르고, 단위는 **Hz (헤르츠)** 를 씁니다. 그래픽카드는 #FrameBuffer 라는 메모리 영역을 읽어 화면을 띄웁니다.
 
 
+### Basic
+```js title:'framebuffer example'
+
+```
+
+
+
+Framebuffer를 bind 한 후에는 `gl.viewport`를 호출해주어야 한다.
 ## 더블 버퍼링 (Double Buffering)
 
 #DoubleBuffering 은 지금 화면에 표시되어야 하는, 혹은 표시되고 있는 프런트 버퍼(Front Buffer)와 현재 그리고 있는 **미완성된 백 버퍼**(Back Buffer) 두 개의 FrameBuffer를 사용하는 방식. Back Buffer에 프레임을 다 그리면, Front Buffer와 빠르게 Swap(바꿔치기)함.

@@ -1,11 +1,11 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:RESOURCE/NETWORKS  ",
@@ -43,16 +43,16 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.02494932191292,
   "lineSizeMultiplier": 0.941149179157745,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.495898501585913,
   "repelStrength": 10,
   "linkStrength": 0.645896314120092,
   "linkDistance": 180,
-  "scale": 0.2068940786725697,
+  "scale": 0.4337557438112435,
   "close": false
 }
