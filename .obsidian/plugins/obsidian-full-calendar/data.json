@@ -2,13 +2,8 @@
   "calendarSources": [
     {
       "type": "ical",
-      "color": "#d76cfe",
-      "url": "https://calendar.google.com/calendar/ical/454bfacc99137310aacd7e70240cba3be01eb095f5d243953fb354156ee1f651%40group.calendar.google.com/private-239dd16ce46ea6b10bb7e312338d57df/basic.ics"
-    },
-    {
-      "type": "local",
-      "color": "#81b37c",
-      "directory": "PROJECT"
+      "color": "#6fc059",
+      "url": "https://calendar.google.com/calendar/ical/alysion07%40gmail.com/private-b459789b65385181770110900cc8f12e/basic.ics"
     }
   ],
   "defaultCalendar": 0,
