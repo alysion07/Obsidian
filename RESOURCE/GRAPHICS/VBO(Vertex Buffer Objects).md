@@ -31,4 +31,4 @@ glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
 삼각형의 위치 데이터는 모든 렌더링 호출 때마다 변하지 않고 항상 같으므로 `GL_STATIC_DRAW`가 가장 알맞습니다. 예를 들어 자주 바뀔 수 있는 데이터가 들어있는 버퍼일 경우 `GL_DYNAMIC_DRAW`, `GL_STREAM_DRAW`로 설정하면 그래픽 카드가 빠르게 쓸 수 있는 메모리에 데이터를 저장합니다.
 
-  현재로서는 정점 데이터를 그래픽 카드의 메모리에 저장했습니다. 이 메모리는 VBO라고도 불리는 vertex buffer object가 관리하게 됩니다. 다음에 우리는 실제적으로 이 데이터를 처리하는 vertex shader와 fragment shader를 만들어 볼 것입니다.
+현재로서는 정점 데이터를 그래픽 카드의 메모리에 저장했습니다. 이 메모리는 VBO라고도 불리는 *vertex buffer object*가 관리하게 됩니다.

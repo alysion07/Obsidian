@@ -31,6 +31,11 @@ tags:
   
 VAO를 사용하는 것과 그냥 매번 Vertex Buffer와 Layout(즉 glVertexAttribPointer를 매번 호출)을 지정해주는 것중에 뭐가 더 좋을까? 상황에 따라 다르지만, 대부분의 상황에서 VAO를 사용하는 게 편의성과 성능면에서 우월하다. 실제로 VAO를 사용하는 것이 OpenGL이 권장하는 방식이기도 하다.
 
+### VAO 저장 항목 
+- `glEnableVertexAttribArray` `glDisableVertexAttribArray` 함수의 호출
+- `glVertexAttribPointer` 함수를 통한 Vertex 속성의 구성
+- `glVertexAttribPointer` 함수를 통해 Vertex 속성과 연결된 Vertex Buffer Objects(VBOs)
+![[Pasted image 20241022142449.png|center]]
 
 ### Bind
 
