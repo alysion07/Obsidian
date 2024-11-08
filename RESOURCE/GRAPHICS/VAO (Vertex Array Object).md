@@ -35,7 +35,7 @@ VAO를 사용하는 것과 그냥 매번 Vertex Buffer와 Layout(즉 glVertexAtt
 - `glEnableVertexAttribArray` `glDisableVertexAttribArray` 함수의 호출
 - `glVertexAttribPointer` 함수를 통한 Vertex 속성의 구성
 - `glVertexAttribPointer` 함수를 통해 Vertex 속성과 연결된 Vertex Buffer Objects(VBOs)
-![[Pasted image 20241022142449.png|center]]
+![test caption]()
 
 ### Bind
 
@@ -90,7 +90,7 @@ VBO를 VAO의 슬롯에 **바인딩** 하기 위해 사용하는 함수
 - `stride`: ("보폭") 는 꼭짓점 n의 데이터와 꼭짓점 n+1의 데이터 사이의 간격, 즉 VBO의 size 
 
 ![[Pasted image 20240709155210.png|center]]
-
+vertex buffer object의 구조
 
 우리는 `my_vao`의 0번째 바인딩 슬롯에 `my_vbo`를 바인딩할 것이고, `Vertex vertices[6]` 배열을 그대로 VBO에 복사했으니 `offset`은 **0**, `stride`는 ==Vertex==**구조체의 크기**
 

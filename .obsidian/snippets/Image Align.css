@@ -1,4 +1,4 @@
-img[alt*="center"] {
+/* img[alt*="center"] {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -17,6 +17,17 @@ img[alt*="left-align"] {
 }
 img[alt*="portrait"] {
   border-radius: 100%;
+} */
+
+/*center image*/
+img { 
+  display: block !important; 
+  margin-left: auto !important; 
+  margin-right: auto !important; 
+  } 
+
+.image-captions-caption {
+  text-align: center;
 }
 
 .cm-s-obsidian .cm-strong,
@@ -31,7 +42,16 @@ img[alt*="portrait"] {
   padding-bottom: 5px;
   margin-bottom: 15px;
 }
-
+.iframe-container {
+        display: grid;
+    }
+iframe {
+    width: 40vw;
+    height: 25vw;
+    display: block;
+    margin-left: auto;   /* Automatic margin from left */
+    margin-right: auto; /* Automatic margin from right */
+}
 /*
 .markdown-preview-view h3 {
     color: #AFE0CE;
