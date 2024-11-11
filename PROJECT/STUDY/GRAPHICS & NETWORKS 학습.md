@@ -50,3 +50,12 @@ AI: https://claude.ai/
 - [[24. Texture Rendering]]
 - [[25. Cubemap]]
 - [[26. Picking]]
+
+## Anti-Patterns
+
+1. WebGLRenderingContext 함수에 `viewportWidth`와 `viewportHeight` 값 을 넣는 행위 
+```js 
+gl = canvas.getContext("webgl2");
+gl.viewportWidth = canvas.width;    // BAD!!!
+gl.viewportHeight = canvas.height;  // BAD!!!
+```
