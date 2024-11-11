@@ -33,6 +33,7 @@ perspective(fieldOfView, aspect, zNear, zFar);
 `canvas`의 `width`와 `height`는 `canvas`가 출력되는 크기와  아무 상관이 없다. **CSS**가 `canvas`가 보여지는 사이즈를 결정한다.
 
 #### What to do Instead?
+
  **`canvas.clientWidth`** 와 **`canvas.clientHeight`** 를 사용하라. 이 두 값은 실제로 캔버스가 스크린에 표시되는 사이즈를 알려준다. 해당 값을 사용하면 CSS 설정에 상관없이 항상 정확한 종횡비를 얻을 수 있다.
  
  ```js hl:1 title:"CSS 설정과 관계없이 올바른 Aspect를 구하는 방법"
@@ -40,3 +41,10 @@ perspective(fieldOfView, aspect, zNear, zFar);
 perspective(projectionMatrix, fieldOfView, aspect, zNear, zFar);
 ```
 
+###### `box-sizing` 
+
+*`normal`*: 400x300px `element`, **15px** `border` 400x300 px의 컨텐츠 공간과 15 px `border` 가 둘러 쌓여 총 **430x330px**
+ `border box`: `border`가 같은 `element` 내부에 배치되어 **370x270px** 
+ 
+이것은  **`canvas.clientWidth`** 와 **`canvas.clientHeight`** 를 사용해야하는 중요한 이유 중 하나 이며, 만약 `border`를 `1em` 으로 설정했다면, `canvas`의 크기가 어떻게 될 지 알 수 없다. 다른 **장비**나 **브라우저**인 경우 결과가 달라질 것.
+ 
