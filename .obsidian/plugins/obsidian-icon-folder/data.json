@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAxis3d",
       "LiCalendarRange",
       "RiHtml5Fill",
       "RiJavascriptFill",
-      "RiTeamLine",
-      "RiBookletLine"
+      "RiTeamLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -69,5 +69,6 @@
   "TODO LIST.md": {
     "iconName": "RiPushpinFill",
     "iconColor": "#ff0066"
-  }
+  },
+  "PROJECT/Toy Project.md": "LiAxis3d"
 }
