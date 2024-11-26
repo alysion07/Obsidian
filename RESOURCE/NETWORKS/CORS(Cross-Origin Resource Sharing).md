@@ -14,7 +14,7 @@
 출처는 `protocol`, `host` 위 이미지엔 나와있지 않지만 `:80`, `:443`과 같은 포트 번호 까지 모두 합친 것을 의미한다.  
 
 
-### SOP(Same-Origin Policy)
+## SOP(Same-Origin Policy)
  
 #SOP
 
@@ -46,4 +46,57 @@
 출처를 비교하는 로직은 서버에 구현된 스펙이 아닌 **브라우저**에 구현된 스펙이다.
 
 ![[Pasted image 20241126113213.png|500]]
+
+
+> [!Info]
+> 그래서 CORS 에러를 해결하는 방안 중 하나로 크롬 브라우저 설정에 SOP 정책을 비활성화 하는 방법이 있긴 한데 권장하지는 않는다.
+
+
+
+>[!Tip]
+>브라우저가 정책으로 차단을 한다는 말은, ***'브라우저를 통하지 않고 서버 간에 통신을 할때는 정책이 적용되지 않는다'*** 는 말과 같다. 
+> 즉, 클라이언트 단 코드에서 API 요청을 하는게 아니라, 서버 단 코드에서 다른 출처의 서버로 API 요청을 하면 CORS 에러로부터 자유로워 진다. 그래서 이를 이용한 프록시(Proxy) 서버라는 것이 있다. (후술)
+
+
+
+## 교차 출처 리소스 공유 (Cross-Origin Resource Sharing)
+
+ SOP 정책을 위반해도 CORS 정책에 따르면 다른 출처의 리소스라도 허용 한다는 의미
+#### 브라우저의 CORS 기본 동작 살펴보기
+
+1. 클라이언트에서 HTTP 요청의 Header에 Origin을 담아 전달
+	1. 웹은 [[HTTP]] Protocol을 이용하여 서버에 요청을 보냄
+	2. 이때 브라우저는 요청 Header에 ***Origin*** 이라는 필드에 출처를 함께 담아 보냄
+
+![[Pasted image 20241126114627.png|Origin Field |400]]
+
+2. 서버는 응답 Header에 Access-Control-Allow-Origin을 담아 클라이언트로 전달
+	1. 이후 서버가 이 요청에 대한 응답을 할때 응답 헤더에  Access-Contorl-Allow-Origin 이라는 필드를 추가하고 값으로 ***'이 리소스를 접근하는 것이 허용된 출처 url'*** 을 내려보낸다. 
+
+![[Pasted image 20241126115211.png|400]]
+
+3.  클라이언트에서 Origin과 서버가 보내준 Access-Control-Allow-Origin을 비교한다.
+	1. 이후 응답을 받은 브라우저는 자신이 보냈던 요청의 Origin과 서버가 보내준 응답의  Access-Contorl-Allow-Orign을 비교해 본 후 차단 여부를 결정
+	2. 유효하지 않은 응답인 경우 사용하지 않고 버린다(CORS Error)
+
+### 결국 CORS 해결책은 서버의 허용이 필요
+
+위 CORS 동작을 살펴본 **결론**은 서버에서 `Acces-Control-Allow-Origin` **헤더에 허용할 출처를 기재해서 클라이언트에 응답** 하면 되는 것. 즉 Back-end의 영역
+
+>[!Info]
+> 그렇다면 클라이언트에서 미리 자바스크립트로 origin 헤더값을 위조하면 되지 않을까 싶지만, 브라우저에서 이를 감지하여 차단하기 때문에 결론은 불가능하다.
+> ![[Pasted image 20241126115926.png]]
+
+
+## CORS 작동 3가지 시나리오
+
+단순 요청을 떠나 **쿠키**나 **토큰**과 같은 인증 데이터를 다른 출처의 서버에 요청을 해야 한다면 필수적인 지식.
+브라우저의 세부적인 CORS 통신 동작 과정을 알고 있어야 최적화 작업이 가능 해진다.
+
+#### 3가지 요청
+- 예비요청 (Preflight Request)
+- 단순 요청(Simple Request)
+- 인증된 요청(Credential Request)
+
+[3가지 요청 체험](https://chuckchoiboi.github.io/cors-tutorial/)
 
