@@ -26,9 +26,14 @@ img {
   margin-right: auto !important; 
   } 
 
-.image-captions-caption {
+ .image-captions-figure {
   text-align: center;
-}
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ 
 
 .cm-s-obsidian .cm-strong,
 .markdown-preview-view strong {
