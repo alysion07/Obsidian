@@ -21,6 +21,75 @@
 
 ---
 
+## Type 
+
+### Number
+ - Intiger: 정수형
+ - flaot  :  실수형
+
+### String (text)
+- 문지열
+
+### const / let 
+
+const: 값을 업데이트할 수 없음. 기본적으로 모두 `const`를 사용하여 변수를 생성하고, 업데이트가 필요한 경우 `let`로 수정. 
+`var` 구시대 유물임 사용 X
+
+          
+Boolean 
+- tru / false
+
+### null
+null 값은 자연적으로 생겨나지 않음 변수안에 어떤 값이 없다는것을 알려주기 위해 사용함
+
+
+### Arrays
+초기화: ` const daysOfWeek = [ "mon", ]` 
+추가 push(value) `array.push(v)`
+
+
+Object 
+init : `{}`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+''''''''''''''''''''''''''''''''''
+
+
+
+
+
+
+---
 ### 함수의 종류
 
 선언식: `function` keyword를 선두로 함수를 작성
