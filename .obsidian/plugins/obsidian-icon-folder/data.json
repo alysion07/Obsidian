@@ -64,8 +64,14 @@
     "iconName": "RiTeamLine",
     "iconColor": "#aae8c8"
   },
-  "RESOURCE/LANGUAGE/Java Script": "RiJavascriptFill",
-  "RESOURCE/LANGUAGE/HTML": "RiHtml5Fill",
+  "RESOURCE/LANGUAGE/Java Script": {
+    "iconName": "RiJavascriptFill",
+    "iconColor": "#ffdd00"
+  },
+  "RESOURCE/LANGUAGE/HTML": {
+    "iconName": "RiHtml5Fill",
+    "iconColor": "#ff5900"
+  },
   "TODO LIST.md": {
     "iconName": "RiPushpinFill",
     "iconColor": "#ff0066"

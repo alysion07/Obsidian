@@ -130,7 +130,62 @@
                       "title": "TAG"
                     }
                   ],
-                  "title": "\\\\HTML"
+                  "title": "HTML"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1734402082582,
+                  "items": [
+                    {
+                      "type": "file",
+                      "ctime": 1734402093688,
+                      "path": "RESOURCE/LANGUAGE/Java Script/Basic Syntax.md",
+                      "subpath": "#^-"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1734402093688,
+                      "path": "RESOURCE/LANGUAGE/Java Script/ASI(Automatic Semicolon Insertion).md",
+                      "subpath": "#^-"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1734402093688,
+                      "path": "RESOURCE/LANGUAGE/Java Script/async, await.md",
+                      "subpath": "#^-"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1734402093688,
+                      "path": "RESOURCE/LANGUAGE/Java Script/Promise.md",
+                      "subpath": "#^-"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1734402093688,
+                      "path": "RESOURCE/LANGUAGE/Java Script/reduce.md",
+                      "subpath": "#^-"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1734402093688,
+                      "path": "RESOURCE/LANGUAGE/Java Script/script tag.md",
+                      "subpath": "#^-"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1734402093688,
+                      "path": "RESOURCE/LANGUAGE/Java Script/Strict Mode.md",
+                      "subpath": "#^-"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1734402093688,
+                      "path": "RESOURCE/LANGUAGE/Java Script/비트 연산.md",
+                      "subpath": "#^-"
+                    }
+                  ],
+                  "title": "Java Script"
                 }
               ],
               "title": "LANGUAGE"
