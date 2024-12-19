@@ -51,44 +51,6 @@ null 값은 자연적으로 생겨나지 않음 변수안에 어떤 값이 없�
 Object 
 init : `{}`
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-''''''''''''''''''''''''''''''''''
-
-
-
-
-
-
 ---
 ### 함수의 종류
 
@@ -99,3 +61,28 @@ init : `{}`
 ```js
 let name = function(parameter) { ... return;  }
 ```
+
+
+---
+
+## HTML과의 연동
+
+
+
+
+### document 
+하나의 큰 객체 HTML이 `.js` 코드를 **load**하기 때문에 존재하는 객체. JavaScript는 **document object**를 통해 HTML과 **소통**할 수 있다.
+
+```js
+// title 접근
+document.title = "Hi From JS";
+// get location
+document.location;
+// same command
+document.querySelector("#hello h1");
+document.getElementById("hello");
+```
+
+
+#### querySelector 
+**CSS Selector**를 HTML로 전달하여, JavaScript로 Element를 가져올 수 있음.
