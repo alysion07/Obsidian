@@ -86,3 +86,19 @@ document.getElementById("hello");
 
 #### querySelector 
 **CSS Selector**를 HTML로 전달하여, JavaScript로 Element를 가져올 수 있음.
+
+
+## Events
+
+addEventListener("*evt_name*", *handleFunction*)
+
+``` js
+window.addEventListener("offline", hendleWindowOnline);
+
+```
+
+
+classList 
+
+#### toggle (**token**: string ) 
+list내에 **token**이 존재한다면 list에서 remove하고, 없다면 **token**을 add 한다.
