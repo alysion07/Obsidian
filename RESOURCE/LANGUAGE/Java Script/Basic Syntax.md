@@ -84,21 +84,26 @@ document.getElementById("hello");
 ```
 
 
-# querySelector 
+### querySelector 
+
 **CSS Selector**를 HTML로 전달하여, JavaScript로 Element를 가져올 수 있음.
 
 
-## Events
-
-#### addEventListener("*evt_name*", *handleFunction*)
+### Events
+###### addEventListener("*evt_name*", *handleFunction*)
 
 ``` js
 window.addEventListener("offline", hendleWindowOnline);
-
 ```
 
+###### event.preventDefault()
 
-#### 
+해당 이벤트의 기본 동작을 막는다.  
+	ex. 링크가 걸린 텍스트 클릭 -> 링크 이동 제한
+
+
+
+
 classList 
 
 #### toggle (**token**: string ) 
