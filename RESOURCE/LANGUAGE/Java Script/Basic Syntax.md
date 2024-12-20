@@ -84,13 +84,13 @@ document.getElementById("hello");
 ```
 
 
-#### querySelector 
+# querySelector 
 **CSS Selector**를 HTML로 전달하여, JavaScript로 Element를 가져올 수 있음.
 
 
 ## Events
 
-addEventListener("*evt_name*", *handleFunction*)
+#### addEventListener("*evt_name*", *handleFunction*)
 
 ``` js
 window.addEventListener("offline", hendleWindowOnline);
@@ -98,6 +98,7 @@ window.addEventListener("offline", hendleWindowOnline);
 ```
 
 
+#### 
 classList 
 
 #### toggle (**token**: string ) 

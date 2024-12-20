@@ -1,10 +1,8 @@
 {
-  "cssTheme": "Sanctum",
+  "cssTheme": "Flexoki",
   "nativeMenus": false,
-  "enabledCssSnippets": [
-    "Image Align"
-  ],
-  "accentColor": "",
+  "enabledCssSnippets": [],
+  "accentColor": "#366a9b",
   "theme": "obsidian",
   "interfaceFontFamily": "",
   "textFontFamily": ""
