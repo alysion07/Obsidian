@@ -112,3 +112,9 @@ const elementClasses = elementNodeReference.classList;
 list내에 **token**이 존재한다면 list에서 remove하고, 없다면 **token**을 add 한다.
 
 
+
+
+### [Math](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math)
+
+#### random()
+**0과 1** 사이의 무작위 실수 값을 반환한다.
