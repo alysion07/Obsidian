@@ -28,27 +28,25 @@
  - flaot  :  실수형
 
 ### String (text)
-- 문지열
+- 문자열
 
 ### const / let 
-
 const: 값을 업데이트할 수 없음. 기본적으로 모두 `const`를 사용하여 변수를 생성하고, 업데이트가 필요한 경우 `let`로 수정. 
-`var` 구시대 유물임 사용 X
+	`var` 구시대 유물임 사용 X
 
-          
-Boolean 
+  
+### Boolean 
 - tru / false
 
 ### null
 null 값은 자연적으로 생겨나지 않음 변수안에 어떤 값이 없다는것을 알려주기 위해 사용함
-
 
 ### Arrays
 초기화: ` const daysOfWeek = [ "mon", ]` 
 추가 push(value) `array.push(v)`
 
 
-Object 
+### Object 
 init : `{}`
 
 ---
@@ -66,9 +64,6 @@ let name = function(parameter) { ... return;  }
 ---
 
 ## HTML과의 연동
-
-
-
 
 ### document 
 하나의 큰 객체 HTML이 `.js` 코드를 **load**하기 때문에 존재하는 객체. JavaScript는 **document object**를 통해 HTML과 **소통**할 수 있다.
@@ -104,7 +99,14 @@ window.addEventListener("offline", hendleWindowOnline);
 
 
 
-classList 
+### [classList](https://developer.mozilla.org/ko/docs/Web/API/Element/classList) 
+**`Element.classList`** 는 [`DOMTokenList`](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList)를 반환하는 읽기 전용 프로퍼티이다.
 
-#### toggle (**token**: string ) 
+`classList` 사용은 공백으로 구분된 문자열인 [`element.className`](https://developer.mozilla.org/ko/docs/Web/API/Element/className)을 통해 엘리먼트의 클래스 목록에 접근하는 방식을 대체하는 간편한 방법이다.
+
+```js
+const elementClasses = elementNodeReference.classList;
+```
+
+### toggle (**token**: string ) 
 list내에 **token**이 존재한다면 list에서 remove하고, 없다면 **token**을 add 한다.
