@@ -1,8 +1,10 @@
 {
   "cssTheme": "Flexoki",
   "nativeMenus": false,
-  "enabledCssSnippets": [],
-  "accentColor": "#366a9b",
+  "enabledCssSnippets": [
+    "theme_css"
+  ],
+  "accentColor": "",
   "theme": "obsidian",
   "interfaceFontFamily": "",
   "textFontFamily": ""

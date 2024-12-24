@@ -144,6 +144,12 @@
                     },
                     {
                       "type": "file",
+                      "ctime": 1735001805168,
+                      "path": "RESOURCE/LANGUAGE/Java Script/HTML과의 연동.md",
+                      "subpath": "#^-"
+                    },
+                    {
+                      "type": "file",
                       "ctime": 1734402093688,
                       "path": "RESOURCE/LANGUAGE/Java Script/ASI(Automatic Semicolon Insertion).md",
                       "subpath": "#^-"
@@ -182,6 +188,12 @@
                       "type": "file",
                       "ctime": 1734402093688,
                       "path": "RESOURCE/LANGUAGE/Java Script/비트 연산.md",
+                      "subpath": "#^-"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1735001805168,
+                      "path": "RESOURCE/LANGUAGE/Java Script/String.md",
                       "subpath": "#^-"
                     }
                   ],

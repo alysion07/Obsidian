@@ -2,7 +2,6 @@
 자바스크립트는 브라우저뿐만아니라 서버에서도 실행할 수 있다. 이 외에도 [자바스크립트 엔진](https://en.wikipedia.org/wiki/JavaScript_engine)이라 불리는 특별한 프로그램이 있는 모든 디바이스에서 동작함
 
 
-
 ### 브라우저에서 할 수 있는 일
 - 페이지에 새로운 HTML을 추가하거나 기존 HTML, 혹은 스타일 수정하기
 - 마우스 클릭이나 포인터의 움직임, 키보드 키 눌림 등과 같은 사용자 행동에 반응하기
@@ -63,41 +62,6 @@ let name = function(parameter) { ... return;  }
 
 ---
 
-## HTML과의 연동
-
-### document 
-하나의 큰 객체 HTML이 `.js` 코드를 **load**하기 때문에 존재하는 객체. JavaScript는 **document object**를 통해 HTML과 **소통**할 수 있다.
-
-```js
-// title 접근
-document.title = "Hi From JS";
-// get location
-document.location;
-// same command
-document.querySelector("#hello h1");
-document.getElementById("hello");
-```
-
-
-### querySelector 
-
-**CSS Selector**를 HTML로 전달하여, JavaScript로 Element를 가져올 수 있음.
-
-
-### Events
-###### addEventListener("*evt_name*", *handleFunction*)
-
-``` js
-window.addEventListener("offline", hendleWindowOnline);
-```
-
-###### event.preventDefault()
-
-해당 이벤트의 기본 동작을 막는다.  
-	ex. 링크가 걸린 텍스트 클릭 -> 링크 이동 제한
-
-
-
 
 ### [classList](https://developer.mozilla.org/ko/docs/Web/API/Element/classList) 
 **`Element.classList`** 는 [`DOMTokenList`](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList)를 반환하는 읽기 전용 프로퍼티이다.
@@ -118,3 +82,5 @@ list내에 **token**이 존재한다면 list에서 remove하고, 없다면 **tok
 
 #### random()
 **0과 1** 사이의 무작위 실수 값을 반환한다.
+
+
