@@ -25,7 +25,7 @@
             "textItalic": false
           },
           "languageIcon": {
-            "display": "none",
+            "display": "if_header_shown",
             "displayColour": true
           },
           "externalReference": {
@@ -53,9 +53,9 @@
         "advanced": {
           "gradientHighlights": false,
           "gradientHighlightsColourStop": "70%",
-          "languageBorderColour": false,
+          "languageBorderColour": true,
           "languageBorderWidth": 5,
-          "iconSize": 28
+          "iconSize": 15
         }
       },
       "colours": {
@@ -86,10 +86,13 @@
             "lineColour": "--color-base-30"
           },
           "highlights": {
-            "activeCodeblockLineColour": "--color-base-30",
+            "activeCodeblockLineColour": "#7C2D66",
             "activeEditorLineColour": "--color-base-20",
-            "defaultColour": "--text-highlight-bg",
-            "alternativeHighlights": {}
+            "defaultColour": "#3BB6FF1F",
+            "alternativeHighlights": {
+              "ar": "#31FFD53B",
+              "er": "#FF3B3B30"
+            }
           },
           "inline": {
             "backgroundColour": "--code-background",
@@ -129,10 +132,13 @@
             "lineColour": "--color-base-30"
           },
           "highlights": {
-            "activeCodeblockLineColour": "--color-base-30",
+            "activeCodeblockLineColour": "#DE00A0",
             "activeEditorLineColour": "--color-base-20",
-            "defaultColour": "--text-highlight-bg",
-            "alternativeHighlights": {}
+            "defaultColour": "#3BB6FF1F",
+            "alternativeHighlights": {
+              "ar": "#31FFD53B",
+              "er": "#FF3B3B30"
+            }
           },
           "inline": {
             "backgroundColour": "--code-background",
