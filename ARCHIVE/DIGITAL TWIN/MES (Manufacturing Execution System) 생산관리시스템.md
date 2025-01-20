@@ -8,4 +8,3 @@ MES는 공정진행 정보 **Monitoring** 및 **Control**, 설비제어 및 Moni
 4. 공장활동의 보고를 하는 기능을 가지고 있습니다.
 
 ![[Pasted image 20241111151713.jpg]]![[Pasted image 20241111151716.jpg]]![[Pasted image 20241111151719.jpg]]
-

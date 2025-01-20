@@ -3,56 +3,42 @@
   "search": "",
   "showTags": true,
   "showAttachments": true,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:RESOURCE/NETWORKS  ",
+      "query": "path:PROJECT ",
       "color": {
         "a": 1,
-        "rgb": 11403187
+        "rgb": 14701138
       }
     },
     {
-      "query": "path:\"RESOURCE/Computer Engneering\"  ",
+      "query": "path:ARCHIVE ",
       "color": {
         "a": 1,
-        "rgb": 13406462
+        "rgb": 4120746
       }
     },
     {
-      "query": "path:RESOURCE/GRAPHICS  ",
+      "query": "path:AREA ",
       "color": {
         "a": 1,
-        "rgb": 16707999
-      }
-    },
-    {
-      "query": "path:RESOURCE  ",
-      "color": {
-        "a": 1,
-        "rgb": 11861733
-      }
-    },
-    {
-      "query": "path:PROJECT  ",
-      "color": {
-        "a": 1,
-        "rgb": 16758968
+        "rgb": 15486232
       }
     }
   ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.02494932191292,
-  "lineSizeMultiplier": 0.941149179157745,
+  "nodeSizeMultiplier": 0.969129193433262,
+  "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.495898501585913,
+  "centerStrength": 0.518713248970312,
   "repelStrength": 10,
-  "linkStrength": 0.645896314120092,
-  "linkDistance": 180,
-  "scale": 0.14288922231313372,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.1509311010640914,
   "close": false
 }

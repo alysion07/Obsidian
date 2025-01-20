@@ -121,5 +121,7 @@ superPrint([1, 2, true, false, "hello", "world"]); //T -> n, b, s
 ```
 
 
-# class
- [[Class]] 별도 정리 
+# Sub Category
+
+- ## [[Class]]
+- ## [[Using JavaScript Package on TypeScript]]

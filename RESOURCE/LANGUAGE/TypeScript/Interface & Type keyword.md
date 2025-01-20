@@ -1,12 +1,16 @@
 # Type Keyword
 
- 'typedef' keyword
-지정된 옵션으로만 제한 할 수 있다,
+- `C++`의 `typedef` keyword와 유사함 
+- Alias 생성 가능. 지정된 옵션으로만 제한 가능 
 
-```ts 
+
+```ts title:"type keyword 활용"
+// opt1 
+type newNum = number
+// opt2
 type Team = "red" | "yellow" | "green"
 type Health = 1 | 5 | 10
-
+// opt3
 type Player = {
 	nickname: string
 	team:Team
@@ -19,11 +23,17 @@ const nico :Player = {
 	team: "yellow"
 	health: 10 // if 9 error
 }
+
+// 여러 타입을 하나로 결합하는 역할을 합니다.
+type PlayerAA = PlayerA & {
+	lastName:string
+}
 ```
 
 # Interface
 `object`, `class`의 모양을 설명할 때 사용한다.  **TypeScript**에서만 사용 가능한 키워드
-구현해야 하는 `method`와 `property`를 강제할 수 있다. 
+구현해야 하는 `method`와 `property`를 강제할 수 있다. `abstract` `class`를 대체 사용 가능하며,  `implement` 키워드로 `interface`를 상속 가능함.
+
 
 > **`interface`로 상속 받을 시, `property`에 `private`를 사용할 수 없음**
 > 	`public`만 사용 가능하다는 단점이 있음

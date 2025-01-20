@@ -1,5 +1,4 @@
 
-# Artifact
 #Artifact #아티팩트
 
 - Maven등에서 빌드 결과로 나오는 개발 산출물

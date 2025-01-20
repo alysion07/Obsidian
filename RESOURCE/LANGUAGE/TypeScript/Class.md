@@ -96,3 +96,38 @@ class Player implements User, Human { // 다중 상속 가능
 
 }
 ```
+
+
+# Polymorphism
+
+```ts
+interface SStorage<T> {
+    [key:string]: T
+}
+
+class LocalStorage<T> {
+    private  storage: SStorage<T> = {}
+    set(key:string, value:T){
+        this.storage[key] = value;
+    }
+    remove(key:string){
+        delete this.storage[key];
+    }
+    get(key:string):T {
+        return this.storage[key];
+    }
+    clear() {
+        this.storage = {};
+    }
+}
+
+const stringStorage = new LocalStorage<string>();
+
+stringStorage.get("name");
+stringStorage.set("hello", "sdasd");
+
+const booleanStorage = new LocalStorage<boolean>();
+
+booleanStorage.set("isCool", true);
+booleanStorage.set("hello", false);
+```
