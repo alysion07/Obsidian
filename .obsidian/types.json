@@ -27,6 +27,8 @@
     "allDay": "date",
     "Task1": "checkbox",
     "task2": "date",
-    "End Date": "date"
+    "End Date": "date",
+    "startdate": "date",
+    "duedate": "date"
   }
 }

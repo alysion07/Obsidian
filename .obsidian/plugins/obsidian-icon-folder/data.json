@@ -57,10 +57,6 @@
   },
   "TEMPLATE": "RiFileCopy2Fill",
   "ARCHIVE/Annual Notes": "LiCalendarRange",
-  "PROJECT/GraphicsDevelopment.md": {
-    "iconName": "RiTeamLine",
-    "iconColor": "#aae8c8"
-  },
   "RESOURCE/LANGUAGE/Java Script": {
     "iconName": "RiJavascriptFill",
     "iconColor": "#ffdd00"
@@ -85,5 +81,9 @@
   },
   "RESOURCE/GRAPHICS/GRAPHICS & NETWORKS 학습.md": "RiBook3Line",
   "AREA/STUDY": "RiBookletLine",
-  "AREA/STUDY/Toy Project.md": "LiAxis3d"
+  "AREA/STUDY/Toy Project.md": "LiAxis3d",
+  "PROJECT/GraphicsDev/GraphicsDevelopment.md": {
+    "iconName": "RiTeamLine",
+    "iconColor": "#aae8c8"
+  }
 }

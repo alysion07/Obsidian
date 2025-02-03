@@ -1,1 +1,2 @@
-O&M은 'Operation'과 'Maintenance'의 약어로, 단어의 뜻과 같이 운전하고 정비하는 업무**를 말합니다
+#onm 
+O&M은 'Operation'과 'Maintenance'의 약어로, 단어의 뜻과 같이 운전하고 정비하는 업무를 말합니다
