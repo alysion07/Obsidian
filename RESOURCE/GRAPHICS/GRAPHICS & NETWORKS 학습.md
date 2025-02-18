@@ -50,6 +50,6 @@ AI: https://claude.ai/
 - [[24. Texture Rendering]]
 - [[25. Cubemap]]
 - [[26. Picking]]
-[[Anti-Patterns]]
+- [[Anti-Patterns]]
 
 

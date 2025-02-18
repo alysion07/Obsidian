@@ -23,7 +23,7 @@ Assembly - 17x17 사이즈의 핵연료봉
 
 MARS, CUPID 코드의 실시간성은 어느정도 유사하게 
 
-### MARS3.1
+### MARS 3.1
 KAERI 에서 개발한 코드
 수 만 라인 까지 길어지는 경우도 있음
 Volume 단위 계산
@@ -44,8 +44,8 @@ junction + volume 합쳐서 999개 제한
 Single Junction의 입구출구 구분을 위해 0, 1을 사용하며 
 이 값이 유동의 방향을 결정하지는 않는다.
 
-경게조건은 Time dependent junc&vol
-pipe는 볼륨을 여러개 이어놓은 컴포넌트
+경계조건은 Time dependent junc&vol
+pipe는 볼륨을 여러 개를 이어놓은 컴포넌트
 
 MARS는 `*` 가 주석 키워드
 

@@ -34,7 +34,6 @@ BOP 제어 시스템 내에 안전 프로토콜을 통합하면 보조 시스템
 BOP 제어 시스템은 보조 구성 요소를 조정하고 모니터링함으로써 발전소 운영의 신뢰성을 향상시키고 가동 중지 시간과 중단을 최소화합니다.
 
 
-
 Fuel Receiving,
 Storaging Facilities,
 Metering System, 

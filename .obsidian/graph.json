@@ -1,8 +1,8 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
-  "showAttachments": true,
+  "showTags": false,
+  "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
@@ -18,18 +18,25 @@
       "query": "path:ARCHIVE ",
       "color": {
         "a": 1,
-        "rgb": 4120746
+        "rgb": 16769162
       }
     },
     {
       "query": "path:AREA ",
       "color": {
         "a": 1,
-        "rgb": 15486232
+        "rgb": 12121087
+      }
+    },
+    {
+      "query": "path:RESOURCE  ",
+      "color": {
+        "a": 1,
+        "rgb": 6674366
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 0.969129193433262,
@@ -39,6 +46,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.1509311010640914,
+  "scale": 0.1042389796377112,
   "close": false
 }

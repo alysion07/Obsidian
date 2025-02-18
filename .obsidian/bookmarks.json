@@ -136,6 +136,12 @@
                   "items": [
                     {
                       "type": "file",
+                      "ctime": 1738633311496,
+                      "path": "RESOURCE/LANGUAGE/Java Script/JavaScript Index.md",
+                      "subpath": "#^-"
+                    },
+                    {
+                      "type": "file",
                       "ctime": 1734402093688,
                       "path": "RESOURCE/LANGUAGE/Java Script/Basic Syntax.md",
                       "subpath": "#^-"
@@ -192,6 +198,18 @@
                       "type": "file",
                       "ctime": 1735001805168,
                       "path": "RESOURCE/LANGUAGE/Java Script/String.md",
+                      "subpath": "#^-"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1738633311496,
+                      "path": "RESOURCE/LANGUAGE/Java Script/Arrow Function.md",
+                      "subpath": "#^-"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1738633311496,
+                      "path": "RESOURCE/LANGUAGE/Java Script/Single Threaded Language.md",
                       "subpath": "#^-"
                     }
                   ],

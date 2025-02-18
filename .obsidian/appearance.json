@@ -7,5 +7,6 @@
   "accentColor": "",
   "theme": "obsidian",
   "interfaceFontFamily": "",
-  "textFontFamily": ""
+  "textFontFamily": "",
+  "showRibbon": true
 }

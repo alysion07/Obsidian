@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiReactjsFill",
+      "RiNodeTree",
       "RiTeamLine",
       "🎍",
-      "LiType",
-      "LiAxis3d",
-      "LiCalendarRange"
+      "LiType"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -85,5 +85,10 @@
   "PROJECT/GraphicsDev/GraphicsDevelopment.md": {
     "iconName": "RiTeamLine",
     "iconColor": "#aae8c8"
-  }
+  },
+  "RESOURCE/Algorithm": {
+    "iconName": "RiNodeTree",
+    "iconColor": "#409aa0"
+  },
+  "RESOURCE/LANGUAGE/React": "RiReactjsFill"
 }
