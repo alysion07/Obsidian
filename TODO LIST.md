@@ -93,3 +93,10 @@ V-SMR 가상원자로 플랫폼 개발
 ---
 
 PMIS 
+
+# TODO 
+
+- iPWR Simulator
+- Graph Partitioning
+- 전체 플랫폼 구성도에서 우리 과제 수행범위 Box로 강조 + BPMS.js 영상 주간회의자료에 첨부 
+- 기능요건서, 명세서 양식 받아서 사전 작업 해놓을 것 
