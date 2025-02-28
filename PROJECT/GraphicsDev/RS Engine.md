@@ -1,12 +1,12 @@
 ---
-startdate: 
+startdate: 2025-02-24
 duedate: 2026-01-02
 ---
 #### Engine Core 기술 개발 
 - 4월 말까지 마지노선
 - 진행 하면서 Material / depth buffer / deferred render 병행
 
-#### Stream line 누적선(Geometry shader)
+#### Stream line 유적선(Geometry shader)
 - 2M
 #### Vector Visualization
 - 1M
