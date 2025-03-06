@@ -31,7 +31,8 @@
     "iconsInLinksEnabled": true,
     "iconIdentifier": ":",
     "debugMode": false,
-    "lucideIconPackType": "native"
+    "lucideIconPackType": "native",
+    "useInternalPlugins": false
   },
   "GARAGE": "RiPriceTag3Fill",
   "RESOURCE": {
