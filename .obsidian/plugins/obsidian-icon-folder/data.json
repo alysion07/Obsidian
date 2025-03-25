@@ -37,7 +37,7 @@
   "GARAGE": "RiPriceTag3Fill",
   "RESOURCE": {
     "iconName": "RiPushpinFill",
-    "iconColor": "#7affd3"
+    "iconColor": "#65d7be"
   },
   "PROJECT": {
     "iconName": "RiTodoLine",
@@ -45,11 +45,11 @@
   },
   "ARCHIVE": {
     "iconName": "RiStackLine",
-    "iconColor": "#9fc8fe"
+    "iconColor": "#ffc524"
   },
   "AREA": {
     "iconName": "RiFolderChartLine",
-    "iconColor": "#58fef3"
+    "iconColor": "#b8f3ff"
   },
   "AREA/COFFEE": "RiCupLine",
   "AREA/주식.md": {
@@ -91,5 +91,8 @@
     "iconName": "RiNodeTree",
     "iconColor": "#409aa0"
   },
-  "RESOURCE/LANGUAGE/React": "RiReactjsFill"
+  "RESOURCE/LANGUAGE/React": {
+    "iconName": "RiReactjsFill",
+    "iconColor": "#3babe3"
+  }
 }

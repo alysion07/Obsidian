@@ -1,6 +1,6 @@
 ---
 startdate: 2025-03-21
-duedate:
+duedate: 2025-12-31
 ---
 EMLID 550만(?)
 가급적 빠르게 진행

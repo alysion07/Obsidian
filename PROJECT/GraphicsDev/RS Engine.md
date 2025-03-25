@@ -2,6 +2,7 @@
 startdate: 2025-02-24
 duedate: 2026-01-02
 ---
+Referenc: [[2025-03-10 후처리 논의(with 기획팀)]]
 #### Engine Core 기술 개발 
 - 4월 말까지 마지노선
 - 진행 하면서 Material / depth buffer / deferred render 병행
