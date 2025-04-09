@@ -68,25 +68,21 @@ Rendering Engine 
   - Mouse Contorl 기능 고도화
   - VTK 가시화 기능 개발
  
-V-SMR 가상원자로 플랫폼 개발
-- 기술 개발 지원 회의 참석(01/14)
-∙ 기관별 역무 분담 재검토
-∙ 원자력 시뮬레이션 시스템 구조 개요
-
 현대차 지그 유닛 자동 리깅 플러그인
    - 머신 카테고리별 테스트 진행
-   
 
 ---
 # TODO 
-
+#### V-SMR 가상원자로 플랫폼 개발
 - iPWR Simulator
 - Graph Partitioning
 - 기능요건서, 명세서 양식 받아서 사전 작업 해 놓을것 
+
+
 #### JavaScript
 - 1급 객체 
 - Event Sourcing Pattern
 - 서로게이트 
 - 유사배열과 이터러블
-- 불면성법칙
-- 
+- 불변성법칙(immutability)
+
