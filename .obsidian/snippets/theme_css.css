@@ -3,8 +3,10 @@ body
 {
   --h1-color: rgb(36, 132, 124);
   --h2-color: rgb(36, 132, 124);
+  --h3-color: rgb(36, 132, 124);
 
   --bold-color: rgb(36, 132, 124);
+  --heading-spacing: 100px;
 }
 
 img{
@@ -14,4 +16,40 @@ img{
 }
 .image-captions-figure {
   margin: 0 auto;
+}
+/* Obsidian 헤딩 하단 마진 설정 */
+
+/* Reading View (Preview Mode) 헤딩 마진 */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h6 {
+    margin-bottom: 0.3em !important;
+}
+
+/* Live Preview Mode 헤딩 마진 */
+.markdown-source-view.mod-cm6 .HyperMD-header-1, 
+.markdown-source-view.mod-cm6 .HyperMD-header-2,
+.markdown-source-view.mod-cm6 .HyperMD-header-3,
+.markdown-source-view.mod-cm6 .HyperMD-header-4,
+.markdown-source-view.mod-cm6 .HyperMD-header-5,
+.markdown-source-view.mod-cm6 .HyperMD-header-6 {
+    margin-bottom: 0.3em !important;
+}
+
+/* Canvas와 기타 뷰에서의 헤딩 마진 */
+.canvas-node-content h1,
+.popover h1,
+.canvas-node-content h2,
+.popover h2,
+.canvas-node-content h3,
+.popover h3,
+.canvas-node-content h4,
+.popover h4,
+.canvas-node-content h5,
+.popover h5,
+.canvas-node-content h6,
+.popover h6 {
+  margin-bottom: 0.3em !important;
 }

@@ -47,6 +47,31 @@ ${backticks}`
 
 
 ```
+---
+
+# TODO 
+
+PIX4D FLOW CHART 
+python 312
+ubuntu 24
+engine 2.14
+
+
+- [ ] 빌드 후 PDB 파일 업로드 할 수 있도록 빌드봇 설정 
+- [ ] 외부에서 로그 레벨을 설정할 수 있는지 확인
+- [ ] 외부로부터 로그를 전송 받기 위한 포트 설정 요청(to 신재호)
+
+
+
+
+
+### 낮은 우선순위
+#### JavaScript
+- 1급 객체 
+- Event Sourcing Pattern
+- 유사배열과 이터러블
+- 불변성법칙(immutability)
+
 
 
 ---
@@ -72,17 +97,3 @@ Rendering Engine 
    - 머신 카테고리별 테스트 진행
 
 ---
-# TODO 
-#### V-SMR 가상원자로 플랫폼 개발
-- iPWR Simulator
-- Graph Partitioning
-- 기능요건서, 명세서 양식 받아서 사전 작업 해 놓을것 
-
-
-#### JavaScript
-- 1급 객체 
-- Event Sourcing Pattern
-- 서로게이트 
-- 유사배열과 이터러블
-- 불변성법칙(immutability)
-

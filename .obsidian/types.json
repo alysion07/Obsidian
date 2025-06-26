@@ -29,6 +29,8 @@
     "task2": "date",
     "End Date": "date",
     "startdate": "date",
-    "duedate": "date"
+    "duedate": "date",
+    "STEP2": "checkbox",
+    "description": "date"
   }
 }
