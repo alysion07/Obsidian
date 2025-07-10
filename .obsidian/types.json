@@ -31,6 +31,8 @@
     "startdate": "date",
     "duedate": "date",
     "STEP2": "checkbox",
-    "description": "date"
+    "description": "date",
+    "task2 Promo": "date",
+    "Promotion Release": "date"
   }
 }
