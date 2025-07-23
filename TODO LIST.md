@@ -51,6 +51,7 @@ ${backticks}`
 
 # TODO 
 
+
 PIX4D FLOW CHART 
 python 312
 ubuntu 24
@@ -97,3 +98,13 @@ Rendering Engine 
    - 머신 카테고리별 테스트 진행
 
 ---
+
+
+# GPT Review webhook
+- Web Hook 설정 방법
+- GitLab Login → Project 선택 → Settings → Webhooks
+- URL : [http://172.16.28.218:53780/webhook/gitlab](http://172.16.28.218:53780/webhook/gitlab "http://172.16.28.218:53780/webhook/gitlab")
+- Name(Optional) : GPT Code Review
+- Secret token : ndxpro123!
+- Trigger : Merge request events
+- SSL Verification : Disable
