@@ -15,10 +15,13 @@ Reference URL: "[[THALES Feature]]"
 
 ## NFLOW 납품 
 - FEATURE ID 기준으로 라이선스 수집 여부 결정 하도록 수정 
-- 경북대학교 ( 금주 금요일 혹은 차주 ) 
-- 현대차 8월 말 (로그 제거 필요, 솔버 업데이트, ULRA 교체)
+- **경북대학교 ( 금주 금요일 혹은 차주 )** 
+	- **우선 로그 작성 중지하고 추후에 업데이트 전달(로컬 로그 저장 버전)** 
+- 현대차 8월 말 (로그 제거 필요, 솔버 업데이트, EULA 교체)
 
 미니 덤프로 생성된 데이터를 사용자가 보낼 수 있는지?
+- `attachment` 기능 활용하여 생성된 덤프 파일 보낼 수 있을듯 [초기화 링크](https://docs.sentry.io/platforms/native/enriching-events/attachments/#sdk-initialization)
+[[Sentry - Attachment 활용]]
 
 
 ---
