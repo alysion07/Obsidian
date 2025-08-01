@@ -6,7 +6,6 @@ Reference URL: "[[THALES Feature]]"
  - [x] 사용권 계약서 적용 
  - [x] 신규 DMZ IP 적용 (**7/1**, 서버 입고 후 IP 전달 예정)
  - [x] Sentry Transaction 적용 검토 
- - [ ] JSON 키 값을 그냥 int 같은 값으로할까?
  - [ ] 수집된 이슈를 차주에 한번 볼 수 있도록 준비 
  - [ ] 경북대학교 ( 금주 금요일 혹은 차주)
  
