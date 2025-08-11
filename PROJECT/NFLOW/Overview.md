@@ -13,7 +13,7 @@ Reference URL: "[[THALES Feature]]"
 해석(다양한 케이스에 대한 해석 사전 진행)
 -> Sampling(범위, Method) 설정
 -> Target(Fields , section)설정
--> 2D 
+-> 2D VTK 추출 
 
 
 
