@@ -4,16 +4,12 @@ Reference URL: "[[THALES Feature]]"
 ---
 ## Task List
  - [ ] 경북대학교 ( 금주 금요일 혹은 차주)
+
+
+관련 업무 : [[NFLOW AI-TFT]]
  
 ---
 
-# NFLOW AI-TFT 
-
-## Workflow
-해석(다양한 케이스에 대한 해석 사전 진행)
--> Sampling(범위, Method) 설정
--> Target(Fields , section)설정
--> 2D VTK 추출 
 
 
 
