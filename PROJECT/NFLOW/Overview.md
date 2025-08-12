@@ -13,6 +13,10 @@ Reference URL: "[[THALES Feature]]"
 
 
 
+
+
+
+
 ## NFLOW 납품 
 - FEATURE ID 기준으로 라이선스 수집 여부 결정 하도록 수정 
 - **경북대학교 ( 금주 금요일 혹은 차주 )** 

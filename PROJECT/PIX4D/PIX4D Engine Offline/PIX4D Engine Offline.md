@@ -12,6 +12,13 @@
 
 
 ---
+
+## Thales Sentinel - Docker Container Licensing 
+- IT 컨터젼스에서 해줘야 할 작업
+- 
+
+
+
 ## Documents 
 Thales Envelope: [Thales Python Envelope.pptx](https://ocoffee-my.sharepoint.com/:p:/g/personal/alysion_e8ight_co_kr/EZU2CYu8_clDqsKej1VFo-EBovJsBwh48OWwBnwWb_4KbA?e=hiNPYW)
 ### 현재 상황 및 문제점
