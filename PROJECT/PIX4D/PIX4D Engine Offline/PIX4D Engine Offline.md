@@ -7,14 +7,18 @@
 담당자 2: ladislav.palfy@pix4d.com
 ---
 ## Checklist 
- - [ ] PIX4D 실무자들과 미팅 예정
- - [ ] Pyc file 암호화 기능 체크 
+ - [ ] pyinstaller 빌드 테스트 
+ - [ ] Envelope 동작 테스트 
+ - [ ] VM 환경 문의 
+ - [ ] 방화벽 - 특정 포트 개방 필요 여부 
+
+
 
 
 ---
 
 ## Thales Sentinel - Docker Container Licensing 
-- IT 컨터젼스에서 해줘야 할 작업
+- IT 컨버젼스에서 해줘야 할 작업
 - 
 
 
