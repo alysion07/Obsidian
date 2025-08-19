@@ -1,6 +1,6 @@
 ---
-description: PIX4D PGP 소모를 통한 지속매출 비즈니스 구축
-End Date: 2025-07-01
+begindate: 2025-05-23
+duedate: 2025-07-01
 목표 설정: 
 STEP 1: false
 STEP 2: false

@@ -33,7 +33,7 @@ let tasks = "";
 projects.forEach(page => {
   const title = page.file.name;
   const startDate = page.startdate ? `${page.startdate.day}-${page.startdate.month}-${page.startdate.year}` : 'unknown';
-  const dueDate = page.duedate ? `${page.duedate.day}-${page.duedate.month}-${page.duedate.year}` : 'unknown';
+  const dueDate = page.enddate ? `${page.duedate.day}-${page.duedate.month}-${page.duedate.year}` : 'unknown';
   
   tasks += `    ${title} : ${startDate}, ${dueDate}\n`;
 });
