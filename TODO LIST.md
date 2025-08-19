@@ -20,8 +20,8 @@ endOfWeek.setDate(lastWeekStart.getDate() + 6);
 
 // 폴더 내의 페이지들 중, 시작일과 마감일이 올해 전체 범위와 겹치는 항목들 선택
 const projects = dv.pages('"PROJECT"')
-    .where(p => p.duedate && (p.startdate <= endOfWeek && p.duedate >= startOfWeek))
-    .sort(p => p.duedate, 'desc');
+    .where(p => p.enddate && (p.startdate <= endOfWeek && p.enddate >= startOfWeek))
+    .sort(p => p.enddate, 'desc');
 
 const mermaidConf = `mermaid
 gantt
@@ -33,7 +33,7 @@ let tasks = "";
 projects.forEach(page => {
   const title = page.file.name;
   const startDate = page.startdate ? `${page.startdate.day}-${page.startdate.month}-${page.startdate.year}` : 'unknown';
-  const dueDate = page.enddate ? `${page.duedate.day}-${page.duedate.month}-${page.duedate.year}` : 'unknown';
+  const dueDate = page.enddate ? `${page.enddate.day}-${page.enddate.month}-${page.enddate.year}` : 'unknown';
   
   tasks += `    ${title} : ${startDate}, ${dueDate}\n`;
 });
@@ -51,14 +51,6 @@ ${backticks}`
 
 # TODO 
 
-## 1. V-SMR 가상원자로 플랫폼 기술 개발
-- 고속 해석 시뮬레이터 개발 
-	- MARS 시나리오 선정 
-	- 수정 가능한 범위 및 자율 운전 적용 범위 파악 
-		- MARS 코드를 내부까지 알고 있는 전문인력 의견 수렴 필요 
-- 계통 설계 도구 개발 
-	- 조작반 기반 시뮬레이터 개발
-	- NewScale 시뮬레이터와 유사한 기능 수행 필요
 
 --- 
 

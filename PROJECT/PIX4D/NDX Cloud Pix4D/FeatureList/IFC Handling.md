@@ -1,6 +1,6 @@
 ---
-Begin Date: 2025-07-01
-enddate: 2025-08-31
+startdate: 2025-07-01
+enddate: 2025-08-08
 ---
 
 Potree
