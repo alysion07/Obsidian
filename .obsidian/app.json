@@ -12,5 +12,6 @@
   "showLineNumber": false,
   "readableLineLength": true,
   "useMarkdownLinks": false,
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "autoConvertHtml": true
 }
