@@ -3,18 +3,9 @@ Promotion Release: 2025-07-07
 Reference URL: "[[THALES Feature]]"
 ---
 ## Task List
- - [ ] 경북대학교 ( 금주 금요일 혹은 차주)
 
-
-관련 업무 : [[NFLOW AI-TFT]]
  
 ---
-
-
-
-
-
-
 
 
 ## NFLOW 납품 
@@ -43,17 +34,6 @@ Reference URL: "[[THALES Feature]]"
 - 모든 솔버 사용 가능. 기능 제약 없음
 - 클라우드 라이선스 방식 사용 
 - 사용권 계약서 한 장으로 업데이트 (현재 법무팀에서 검토중)
-
-
-
-##### 프로모션 이후 (7/7 ~ )
-*NFLOW 4.0* 준비 및 *POST Processor*에 대해 언급됨(target : 내년 1Q )
-우선 기획서 작성이 우선이며, 기획서 기반으로 개발 일정 산출 가능하다는 답변 전달(to 사업부)
-
-##### 2Y ~3Y 이후
-NFLOW SaaS 구축에 대한 준비 필요
- - PRE/POST는 로컬에서 진행 
- - Full Cloud를 목표로 함
 
 ---
 ## 로그 작성 포맷

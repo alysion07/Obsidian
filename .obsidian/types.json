@@ -35,6 +35,7 @@
     "task2 Promo": "date",
     "Promotion Release": "date",
     "주요 범위": "date",
-    "목표 설정": "date"
+    "목표 설정": "date",
+    "excalidraw-embed-md": "checkbox"
   }
 }
