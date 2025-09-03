@@ -1,3 +1,12 @@
+
+
+- [ ] **USB 허브 구매** 
+신재호 선임에게 구매 이력 확인 및 관련자료 없을 시, 품의서 작성 
+- [UGREEN CM512 (7포트/USB 3.0 Type C) : 다나와 가격비교](https://prod.danawa.com/info/?pcode=20696873)
+
+
+---
+
 # WBS 
 ```dataviewjs
 // 올해의 연도 가져오기
