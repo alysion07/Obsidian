@@ -343,18 +343,6 @@
           "ctime": 1718936279855,
           "items": [
             {
-              "type": "group",
-              "ctime": 1719793994686,
-              "items": [],
-              "title": "DIGITAL TWIN"
-            },
-            {
-              "type": "file",
-              "ctime": 1719793994686,
-              "path": "ARCHIVE/NVIDIA DRIVE AGX.md",
-              "subpath": "#^-"
-            },
-            {
               "type": "file",
               "ctime": 1719793994686,
               "path": "ARCHIVE/TEMP FILE.md",
