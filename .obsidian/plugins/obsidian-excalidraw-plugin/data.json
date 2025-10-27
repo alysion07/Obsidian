@@ -107,7 +107,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.8.3",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.15.1",
     "libraryItems": [
       {
         "id": "AqXQC3pXrxv328BPDxGGl",
@@ -158,7 +158,8 @@
               ]
             ],
             "index": "a0",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -205,7 +206,8 @@
               ]
             ],
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "pxWNMdJ1nc1Uu5qhqM-ZJ",
@@ -252,7 +254,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "9dUErlyhEteEC0bNR_bMd",
@@ -371,7 +374,8 @@
               ]
             ],
             "index": "a0",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -418,7 +422,8 @@
               ]
             ],
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -465,7 +470,8 @@
               ]
             ],
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -512,7 +518,8 @@
               ]
             ],
             "index": "a3",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -559,7 +566,8 @@
               ]
             ],
             "index": "a4",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -606,7 +614,8 @@
               ]
             ],
             "index": "a5",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979895258,
@@ -661,7 +670,8 @@
               ]
             ],
             "index": "a0",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -708,7 +718,8 @@
               ]
             ],
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -755,7 +766,8 @@
               ]
             ],
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -802,7 +814,8 @@
               ]
             ],
             "index": "a3",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -849,7 +862,8 @@
               ]
             ],
             "index": "a4",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "weUnrnhRn_0hGzuSRqFKa",
@@ -936,7 +950,8 @@
               ]
             ],
             "index": "a0",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -983,7 +998,8 @@
               ]
             ],
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1030,7 +1046,8 @@
               ]
             ],
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1077,7 +1094,8 @@
               ]
             ],
             "index": "a3",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1124,7 +1142,8 @@
               ]
             ],
             "index": "a4",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "rLsoooPKHYglCTWLAgLQv",
@@ -1171,7 +1190,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a5",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "n60OWoIzUdDTuccqg-w-m",
@@ -1222,7 +1242,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a6",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979891268,
@@ -1277,7 +1298,8 @@
               ]
             ],
             "index": "a0",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1324,7 +1346,8 @@
               ]
             ],
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1371,7 +1394,8 @@
               ]
             ],
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1418,7 +1442,8 @@
               ]
             ],
             "index": "a3",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979883108,
@@ -1473,7 +1498,8 @@
               ]
             ],
             "index": "a0",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1520,7 +1546,8 @@
               ]
             ],
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1567,7 +1594,8 @@
               ]
             ],
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1614,7 +1642,8 @@
               ]
             ],
             "index": "a3",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1661,7 +1690,8 @@
               ]
             ],
             "index": "a4",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1708,7 +1738,8 @@
               ]
             ],
             "index": "a5",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1755,7 +1786,8 @@
               ]
             ],
             "index": "a6",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1802,7 +1834,8 @@
               ]
             ],
             "index": "a7",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1849,7 +1882,8 @@
               ]
             ],
             "index": "a8",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1896,7 +1930,8 @@
               ]
             ],
             "index": "a9",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "yIx8XDJNMQd1_rd_RdVfl",
@@ -1943,7 +1978,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "aA",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979880858,
@@ -1998,7 +2034,8 @@
               ]
             ],
             "index": "a0",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -2045,7 +2082,8 @@
               ]
             ],
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "v2-bl5FwRE6gUGBR2JcdF",
@@ -2104,7 +2142,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979878844,
@@ -2159,7 +2198,8 @@
               ]
             ],
             "index": "a0",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "hmvcn7inlXelfpdBCj7fe",
@@ -2206,7 +2246,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "SHbhT3mjRRWMcBOSH45ja",
@@ -2253,7 +2294,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "0J4nmPhFkB-1_WNkv9HC4",
@@ -2300,7 +2342,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a3",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979876275,
@@ -2355,7 +2398,8 @@
               ]
             ],
             "index": "a0",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "GHfKPPEErRL1SnM87QHJG",
@@ -2402,7 +2446,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "CPkBK29vTS1r2kMLKyaMI",
@@ -2449,7 +2494,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "I3Q5oFEOPxsu21O_P3iIM",
@@ -2496,7 +2542,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a3",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "FIo8u7YTFIKQYB5MreM5S",
@@ -2543,7 +2590,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a4",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979873058,
@@ -2598,7 +2646,8 @@
               ]
             ],
             "index": "a0",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "Owuqd2gGl-LipWxVEjjQK",
@@ -2645,7 +2694,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "oDOmMF7iCztHg8qek4WQD",
@@ -2692,7 +2742,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "aG-fI_SSQUvVGufipef2v",
@@ -2739,7 +2790,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a3",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "2ggf0xpJg_5l-nguy7o79",
@@ -2786,7 +2838,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a4",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "QtCFqrAKJ8tDaPRG2c4qq",
@@ -2833,7 +2886,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a5",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "UkNWtpgTxIyqlbsFB2BfR",
@@ -2880,7 +2934,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a6",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979871211,
@@ -2935,7 +2990,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a0",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "In5MFf69ZBXN8ijd3Bu7M",
@@ -2982,7 +3038,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "hhnSNGTGEjycOil_f0cZU",
@@ -3029,7 +3086,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "c8lBeT7kmkU8j9fzn2v36",
@@ -3076,7 +3134,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a3",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "84S-6zsprYo4AHfzNxH9x",
@@ -3123,7 +3182,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a4",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -3170,7 +3230,8 @@
               ]
             ],
             "index": "a5",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979868539,
@@ -3341,7 +3402,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979864780,
@@ -3396,7 +3458,8 @@
               ]
             ],
             "index": "a0",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -3443,7 +3506,8 @@
               ]
             ],
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "A5LuVjdHRn36BF3jbAoJU",
@@ -3490,7 +3554,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "gzpKkBv39kMlLHrAe8g5c",
@@ -3537,7 +3602,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a3",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "Bx-sC1HFLXe2vEbzqXnnl",
@@ -3584,7 +3650,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a4",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "yiiK0BHCxD0KdpkXafGdb",
@@ -3631,7 +3698,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a5",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "4q9LqVtDFGzHJLV19n5-8",
@@ -3678,7 +3746,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a6",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "PFAmFTeaN1AtRZNb6UqRt",
@@ -3725,7 +3794,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a7",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "Y35qBMC9x-Y1NlaqOnWHl",
@@ -3772,7 +3842,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a8",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "32Y0dfaxPdzR_n9sFmpRw",
@@ -3819,7 +3890,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a9",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -3866,7 +3938,8 @@
               ]
             ],
             "index": "aA",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -3913,7 +3986,8 @@
               ]
             ],
             "index": "aB",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -3960,7 +4034,8 @@
               ]
             ],
             "index": "aC",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -4007,7 +4082,8 @@
               ]
             ],
             "index": "aD",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -4054,7 +4130,8 @@
               ]
             ],
             "index": "aE",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -4101,7 +4178,8 @@
               ]
             ],
             "index": "aF",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -4148,7 +4226,8 @@
               ]
             ],
             "index": "aG",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -4195,7 +4274,8 @@
               ]
             ],
             "index": "aH",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -4242,7 +4322,8 @@
               ]
             ],
             "index": "aI",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -4289,7 +4370,8 @@
               ]
             ],
             "index": "aJ",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979862949,
@@ -4344,7 +4426,8 @@
               ]
             ],
             "index": "a0",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -4391,7 +4474,8 @@
               ]
             ],
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -4438,7 +4522,8 @@
               ]
             ],
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "ellipse",
@@ -4621,7 +4706,8 @@
               ]
             ],
             "index": "a0",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -4668,7 +4754,8 @@
               ]
             ],
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "4Lk3PjiS3V0hI26fmtAaC",
@@ -4715,7 +4802,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "94pOLxwcY3klND_YDlhjj",
@@ -4838,7 +4926,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "x_KmGjxeTGW9Nz1TELpo4",
@@ -4889,7 +4978,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979846548,
@@ -4976,7 +5066,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "YsIUDvlbUSxMgc0bDLsXp",
@@ -5023,7 +5114,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "CbjC5ymvUOXhTuMafleBk",
@@ -5070,7 +5162,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a3",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979844812,
@@ -5153,7 +5246,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "gf23p5TKrK-BV8tVoFYrq",
@@ -5198,7 +5292,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979841875,
@@ -5511,7 +5606,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a0",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "O0IitbPPESasIMKmx3k5r",
@@ -5558,7 +5654,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "GUnRetxSz91FLGBEu9v5_",
@@ -5613,7 +5710,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "6BdfaXcexMNHyxeg7TbIu",
@@ -5668,7 +5766,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a3",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "Rx_TJI0fYmJnuJKYsFEeR",
@@ -5715,7 +5814,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a4",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "VDUgEmmkF4VZe1iYOJu_T",
@@ -5762,7 +5862,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a5",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -5809,7 +5910,8 @@
               ]
             ],
             "index": "a6",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -5856,7 +5958,8 @@
               ]
             ],
             "index": "a7",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -5903,7 +6006,8 @@
               ]
             ],
             "index": "a8",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979829428,
@@ -5958,7 +6062,8 @@
               ]
             ],
             "index": "a0",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -6005,7 +6110,8 @@
               ]
             ],
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -6060,7 +6166,8 @@
               ]
             ],
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -6115,7 +6222,8 @@
               ]
             ],
             "index": "a3",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -6162,7 +6270,8 @@
               ]
             ],
             "index": "a4",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -6209,7 +6318,8 @@
               ]
             ],
             "index": "a5",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -6256,7 +6366,8 @@
               ]
             ],
             "index": "a6",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -6303,7 +6414,8 @@
               ]
             ],
             "index": "a7",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -6350,7 +6462,8 @@
               ]
             ],
             "index": "a8",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "8vKTEH5bJRoVeBr41uFVg",
@@ -6397,7 +6510,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a9",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979827186,
@@ -6493,7 +6607,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "WYTX73njHCR4fOseCPky4",
@@ -6540,7 +6655,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "tmv9BJF54uW1wZ8pAulRa",
@@ -6587,7 +6703,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a3",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "vl8s_0IhqwucHTkNO0pB1",
@@ -6634,7 +6751,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a4",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "uQ8jEUu7Cu8QFJpglOmtj",
@@ -6681,7 +6799,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a5",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "86J8PnIbGV0ghes8tqF10",
@@ -6728,7 +6847,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a6",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "Xw4UVNhRfmy7kyeDFhrfz",
@@ -6775,7 +6895,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a7",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "1YGR-gd6UTOKW6Pqiidms",
@@ -6822,7 +6943,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a8",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "text",
@@ -6914,7 +7036,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "aA",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979797325,
@@ -7010,7 +7133,8 @@
               ]
             ],
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -7057,7 +7181,8 @@
               ]
             ],
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -7104,7 +7229,8 @@
               ]
             ],
             "index": "a3",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -7151,7 +7277,8 @@
               ]
             ],
             "index": "a4",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -7198,7 +7325,8 @@
               ]
             ],
             "index": "a5",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -7245,7 +7373,8 @@
               ]
             ],
             "index": "a6",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "text",
@@ -7333,7 +7462,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a8",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "oG9upG5IgOk0Zs1Vs_shf",
@@ -7380,7 +7510,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a9",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -7431,7 +7562,8 @@
               ]
             ],
             "index": "aA",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -7482,7 +7614,8 @@
               ]
             ],
             "index": "aB",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979793978,
@@ -7569,7 +7702,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a1",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "y4IPyMRbamr84j1nh_ZyI",
@@ -7616,7 +7750,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a2",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "VYCDzh8X2ZBuYpgmVgaj8",
@@ -7663,7 +7798,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a3",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "RkIqmTKi8JkCZ60xbQiC1",
@@ -7710,7 +7846,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a4",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "xQx6JViCrwW5XOXgsCKb3",
@@ -7757,7 +7894,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a5",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "B4VeZWQ_zQ_Z-tbrpd0Sq",
@@ -7804,7 +7942,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a6",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "3axxeLNICHiaxg59QNAYd",
@@ -7851,7 +7990,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a7",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "BmokWuqyRhnZcJjAuCjCS",
@@ -7930,7 +8070,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a9",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979792122,
@@ -8165,7 +8306,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a6",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "OVQhrn_0GJ3B9-cqSqG9S",
@@ -8212,7 +8354,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a7",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "OvYFKSsJ-Sef5iVgHwQLq",
@@ -8259,7 +8402,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a8",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "2oKYj-DCpTeQpWQvN9twf",
@@ -8306,7 +8450,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "a9",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "10BNmM1_113_nXKrEZ6so",
@@ -8385,7 +8530,8 @@
               ]
             ],
             "index": "aB",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "BOwxP9CiRgXY8iikuK9Lb",
@@ -8436,7 +8582,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "aC",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "RuqgRiQYT7GjgGc2Parl-",
@@ -8487,7 +8634,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "aD",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "qVPv_gVyOdLs1Ns59nOlQ",
@@ -8534,7 +8682,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "aE",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "xvPtIVGzggHDUQiTvb47d",
@@ -8581,7 +8730,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "aF",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "cOIF503DqUmHI-dBN4kx5",
@@ -8628,7 +8778,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "aG",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "CusrEs0Us7E29mBTNghEU",
@@ -8675,7 +8826,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "aH",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "NrTloS52_1GJMYshfpGRW",
@@ -8722,7 +8874,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "aI",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "MPUc1S2PD8TNOqNLfiPTe",
@@ -8773,7 +8926,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "aJ",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           },
           {
             "id": "FWN-ZJvdDOurwW2lzj18K",
@@ -8820,7 +8974,8 @@
             "startArrowhead": null,
             "endArrowhead": null,
             "index": "aK",
-            "frameId": null
+            "frameId": null,
+            "polygon": false
           }
         ],
         "created": 1676979788808,

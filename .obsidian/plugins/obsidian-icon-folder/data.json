@@ -57,6 +57,7 @@
     "iconColor": "#7ca3fe"
   },
   "TEMPLATE": "RiFileCopy2Fill",
+  "ARCHIVE/Annual Notes": "LiCalendarRange",
   "RESOURCE/LANGUAGE/Java Script": {
     "iconName": "RiJavascriptFill",
     "iconColor": "#ffdd00"
@@ -93,9 +94,5 @@
     "iconColor": "#3babe3"
   },
   "PROJECT/연합트윈/연합트윈(TO-DO).md": "🎍",
-  "PROJECT/PIX4D/PIX4D Engine Offline": "⛔",
-  "PROJECT/V-SMR 플랫폼 개발 사업/Overview.md": "RiReactjsFill",
-  "ARCHIVE/E8/2024": "RiStickyNoteLine",
-  "PROJECT/PIX4D/NDX Cloud Pix4D": "🚸",
-  "PROJECT/PIX4D/NDX Cloud Pix4D/Overview.md": "LiBadgeAlert"
+  "PROJECT/PIX4D/PIX4D Engine Offline": "⛔"
 }
