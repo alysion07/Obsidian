@@ -1,0 +1,125 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "PROJECT",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "width": 180
+              }
+            },
+            "orderFields": [
+              "name",
+              "path",
+              "Begin",
+              "End"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "dd44224c-12b4-422b-bc83-269bf782a5e9",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "6e0af285-a83c-4a6c-b088-45564bcfe4f5",
+      "name": "Untitled project"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "{{date:YYYY-MM-DD}}",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "dataview",
+        "config": {
+          "query": "TABLE without ID\nfile.name as \"제목\", \nlength(file.content) as \"글자수\", \nfile.ctime as \"생성일\"\nFROM \"Daily Notes\"\nWHERE length(file.content) > 10\nSORT length(file.content) DESC"
+        }
+      },
+      "newNotesFolder": "PROJECT/2025",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "name": {
+                "width": 218
+              },
+              "path": {
+                "width": 432
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "5d887da3-70a3-4d4f-9a47-f4ebdfe647a8",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "e5b153a5-37e4-4c96-95be-2418f0b499c4",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "1a8219da-c606-4445-89e1-03a05aedc906",
+      "name": "Graphics Dev"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "default"
+    },
+    "commands": [],
+    "linkBehavior": "open-note"
+  }
+}

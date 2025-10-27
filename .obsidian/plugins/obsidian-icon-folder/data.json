@@ -1,0 +1,101 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "RiChromeFill",
+      "⛔",
+      "🚸",
+      "LiBadgeAlert",
+      "RiReactjsFill"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "debugMode": false,
+    "lucideIconPackType": "native",
+    "useInternalPlugins": false
+  },
+  "GARAGE": "RiPriceTag3Fill",
+  "RESOURCE": {
+    "iconName": "RiPushpinFill",
+    "iconColor": "#65d7be"
+  },
+  "PROJECT": {
+    "iconName": "RiTodoLine",
+    "iconColor": "#ff3838"
+  },
+  "ARCHIVE": {
+    "iconName": "RiStackLine",
+    "iconColor": "#ffc524"
+  },
+  "AREA": {
+    "iconName": "RiFolderChartLine",
+    "iconColor": "#b8f3ff"
+  },
+  "TEMPLATE": "RiFileCopy2Fill",
+  "RESOURCE/LANGUAGE/Java Script": {
+    "iconName": "RiJavascriptFill",
+    "iconColor": "#ffdd00"
+  },
+  "RESOURCE/LANGUAGE/HTML": {
+    "iconName": "RiHtml5Fill",
+    "iconColor": "#ff5900"
+  },
+  "RESOURCE/LANGUAGE/TypeScript": {
+    "iconName": "LiType",
+    "iconColor": "#14b9ff"
+  },
+  "AREA/평가 면담.md": {
+    "iconName": "RiTeamLine",
+    "iconColor": "#d82c2c"
+  },
+  "RESOURCE/GRAPHICS/GRAPHICS & NETWORKS 학습.md": "RiBook3Line",
+  "RESOURCE/Algorithm": {
+    "iconName": "RiNodeTree",
+    "iconColor": "#409aa0"
+  },
+  "RESOURCE/LANGUAGE/React": {
+    "iconName": "RiReactjsFill",
+    "iconColor": "#3babe3"
+  },
+  "ARCHIVE/E8/2024": "RiStickyNoteLine",
+  "RESOURCE/주식.md": {
+    "iconName": "RiStockFill",
+    "iconColor": "#7ca3fe"
+  },
+  "RESOURCE/STUDY": "RiBookletLine",
+  "RESOURCE/STUDY/Toy Project.md": "LiAxis3d",
+  "RESOURCE/COFFEE": "RiCupLine",
+  "AREA/V-SMR 플랫폼 개발 사업/Overview.md": "RiReactjsFill",
+  "AREA/PIX4D/NDX Cloud Pix4D": "🚸",
+  "AREA/PIX4D/PIX4D Engine Offline": "⛔",
+  "AREA/PIX4D/NDX Cloud Pix4D/Overview.md": "LiBadgeAlert",
+  "AREA/연합트윈/연합트윈(TO-DO).md": "🎍",
+  "PROJECT/TODO LIST.md": {
+    "iconName": "RiPushpinFill",
+    "iconColor": "#ff0066"
+  },
+  "ARCHIVE/E8/2025/GraphicsDev/GraphicsDevelopment.md": {
+    "iconName": "RiTeamLine",
+    "iconColor": "#aae8c8"
+  }
+}

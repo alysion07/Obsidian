@@ -1,0 +1,17 @@
+{
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "GARAGE/lib_resource",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "promptDelete": false,
+  "showLineNumber": false,
+  "readableLineLength": true,
+  "useMarkdownLinks": false,
+  "propertiesInDocument": "visible",
+  "autoConvertHtml": true
+}

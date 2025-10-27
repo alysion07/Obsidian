@@ -1,0 +1,12 @@
+{
+  "cssTheme": "Flexoki",
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "theme_css"
+  ],
+  "accentColor": "",
+  "theme": "obsidian",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "showRibbon": true
+}
