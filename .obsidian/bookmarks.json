@@ -12,13 +12,6 @@
         },
         {
           "type": "file",
-          "ctime": 1719360687621,
-          "path": "TODO LIST.md",
-          "subpath": "#^-",
-          "title": "TODO LIST"
-        },
-        {
-          "type": "file",
           "ctime": 1760491095317,
           "path": "참고 사항.md",
           "subpath": "#^-"
@@ -29,97 +22,9 @@
           "items": [
             {
               "type": "group",
-              "ctime": 1726011530499,
-              "items": [
-                {
-                  "type": "file",
-                  "ctime": 1752460323010,
-                  "path": "PROJECT/V-SMR 플랫폼 개발 사업/Overview.md",
-                  "subpath": "#^-"
-                }
-              ],
-              "title": "V-SMR 플랫폼 개발 사업"
-            },
-            {
-              "type": "group",
               "ctime": 1718947020408,
               "items": [],
               "title": "GRAPHICS"
-            },
-            {
-              "type": "group",
-              "ctime": 1747785348905,
-              "items": [
-                {
-                  "type": "group",
-                  "ctime": 1750896583814,
-                  "items": [],
-                  "title": "PIX4D Engine Offline"
-                },
-                {
-                  "type": "group",
-                  "ctime": 1747785567497,
-                  "items": [
-                    {
-                      "type": "file",
-                      "ctime": 1747785637702,
-                      "path": "PROJECT/PIX4D/NDX Cloud Pix4D/Overview.md",
-                      "subpath": "#^-"
-                    },
-                    {
-                      "type": "file",
-                      "ctime": 1747785637702,
-                      "path": "PROJECT/PIX4D/KCLOUD/2025-05-19 KCLOUD.md",
-                      "subpath": "#^-"
-                    }
-                  ],
-                  "title": "NDX Cloud Pix4D"
-                }
-              ],
-              "title": "PIX4D"
-            },
-            {
-              "type": "group",
-              "ctime": 1753835249799,
-              "items": [
-                {
-                  "type": "group",
-                  "ctime": 1753835249799,
-                  "items": [],
-                  "title": "회의록"
-                },
-                {
-                  "type": "file",
-                  "ctime": 1753835249799,
-                  "path": "PROJECT/NFLOW/Overview.md",
-                  "subpath": "#^-"
-                },
-                {
-                  "type": "file",
-                  "ctime": 1753835249799,
-                  "path": "PROJECT/NFLOW/교류회.md",
-                  "subpath": "#^-"
-                },
-                {
-                  "type": "file",
-                  "ctime": 1753835249799,
-                  "path": "PROJECT/NFLOW/로그 포맷 논의.md",
-                  "subpath": "#^-"
-                },
-                {
-                  "type": "file",
-                  "ctime": 1753835249799,
-                  "path": "PROJECT/NFLOW/THALES Feature.md",
-                  "subpath": "#^-"
-                },
-                {
-                  "type": "group",
-                  "ctime": 1753835249799,
-                  "items": [],
-                  "title": "회의록"
-                }
-              ],
-              "title": "NFLOW"
             }
           ],
           "title": "PROJECT"
@@ -155,32 +60,53 @@
             {
               "type": "file",
               "ctime": 1736922844494,
-              "path": "AREA/주식.md",
+              "path": "RESOURCE/주식.md",
               "subpath": "#^-"
             },
             {
               "type": "group",
-              "ctime": 1736923207551,
-              "items": [],
-              "title": "STUDY"
+              "ctime": 1726011530499,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1752460323010,
+                  "path": "AREA/V-SMR 플랫폼 개발 사업/Overview.md",
+                  "subpath": "#^-"
+                }
+              ],
+              "title": "\\\\V-SMR 플랫폼 개발 사업"
             },
             {
               "type": "group",
-              "ctime": 1736922844494,
-              "items": [],
-              "title": "CARS"
-            },
-            {
-              "type": "group",
-              "ctime": 1736922844494,
-              "items": [],
-              "title": "COFFEE"
-            },
-            {
-              "type": "file",
-              "ctime": 1736922844494,
-              "path": "AREA/주식.md",
-              "subpath": "#^-"
+              "ctime": 1747785348905,
+              "items": [
+                {
+                  "type": "group",
+                  "ctime": 1750896583814,
+                  "items": [],
+                  "title": "PIX4D Engine Offline"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1747785567497,
+                  "items": [
+                    {
+                      "type": "file",
+                      "ctime": 1747785637702,
+                      "path": "AREA/PIX4D/NDX Cloud Pix4D/Overview.md",
+                      "subpath": "#^-"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1747785637702,
+                      "path": "PROJECT/PIX4D/KCLOUD/2025-05-19 KCLOUD.md",
+                      "subpath": "#^-"
+                    }
+                  ],
+                  "title": "NDX Cloud Pix4D"
+                }
+              ],
+              "title": "\\\\PIX4D"
             }
           ],
           "title": "AREA"
@@ -469,6 +395,49 @@
                     }
                   ],
                   "title": "\\\\2024"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1753835249799,
+                  "items": [
+                    {
+                      "type": "group",
+                      "ctime": 1753835249799,
+                      "items": [],
+                      "title": "회의록"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1753835249799,
+                      "path": "ARCHIVE/E8/NFLOW/Overview.md",
+                      "subpath": "#^-"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1753835249799,
+                      "path": "PROJECT/NFLOW/교류회.md",
+                      "subpath": "#^-"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1753835249799,
+                      "path": "PROJECT/NFLOW/로그 포맷 논의.md",
+                      "subpath": "#^-"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1753835249799,
+                      "path": "ARCHIVE/E8/NFLOW/THALES Feature.md",
+                      "subpath": "#^-"
+                    },
+                    {
+                      "type": "group",
+                      "ctime": 1753835249799,
+                      "items": [],
+                      "title": "회의록"
+                    }
+                  ],
+                  "title": "\\\\NFLOW"
                 }
               ],
               "title": "E8"

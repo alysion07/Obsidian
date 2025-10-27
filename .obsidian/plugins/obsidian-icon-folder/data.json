@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiChromeFill",
       "⛔",
       "🚸",
       "LiBadgeAlert",
-      "RiReactjsFill",
-      "RiNodeTree"
+      "RiReactjsFill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -51,13 +51,7 @@
     "iconName": "RiFolderChartLine",
     "iconColor": "#b8f3ff"
   },
-  "AREA/COFFEE": "RiCupLine",
-  "AREA/주식.md": {
-    "iconName": "RiStockFill",
-    "iconColor": "#7ca3fe"
-  },
   "TEMPLATE": "RiFileCopy2Fill",
-  "ARCHIVE/Annual Notes": "LiCalendarRange",
   "RESOURCE/LANGUAGE/Java Script": {
     "iconName": "RiJavascriptFill",
     "iconColor": "#ffdd00"
@@ -65,10 +59,6 @@
   "RESOURCE/LANGUAGE/HTML": {
     "iconName": "RiHtml5Fill",
     "iconColor": "#ff5900"
-  },
-  "TODO LIST.md": {
-    "iconName": "RiPushpinFill",
-    "iconColor": "#ff0066"
   },
   "RESOURCE/LANGUAGE/TypeScript": {
     "iconName": "LiType",
@@ -79,12 +69,6 @@
     "iconColor": "#d82c2c"
   },
   "RESOURCE/GRAPHICS/GRAPHICS & NETWORKS 학습.md": "RiBook3Line",
-  "AREA/STUDY": "RiBookletLine",
-  "AREA/STUDY/Toy Project.md": "LiAxis3d",
-  "PROJECT/GraphicsDev/GraphicsDevelopment.md": {
-    "iconName": "RiTeamLine",
-    "iconColor": "#aae8c8"
-  },
   "RESOURCE/Algorithm": {
     "iconName": "RiNodeTree",
     "iconColor": "#409aa0"
@@ -93,6 +77,25 @@
     "iconName": "RiReactjsFill",
     "iconColor": "#3babe3"
   },
-  "PROJECT/연합트윈/연합트윈(TO-DO).md": "🎍",
-  "PROJECT/PIX4D/PIX4D Engine Offline": "⛔"
+  "ARCHIVE/E8/2024": "RiStickyNoteLine",
+  "RESOURCE/주식.md": {
+    "iconName": "RiStockFill",
+    "iconColor": "#7ca3fe"
+  },
+  "RESOURCE/STUDY": "RiBookletLine",
+  "RESOURCE/STUDY/Toy Project.md": "LiAxis3d",
+  "RESOURCE/COFFEE": "RiCupLine",
+  "AREA/V-SMR 플랫폼 개발 사업/Overview.md": "RiReactjsFill",
+  "AREA/PIX4D/NDX Cloud Pix4D": "🚸",
+  "AREA/PIX4D/PIX4D Engine Offline": "⛔",
+  "AREA/PIX4D/NDX Cloud Pix4D/Overview.md": "LiBadgeAlert",
+  "AREA/연합트윈/연합트윈(TO-DO).md": "🎍",
+  "PROJECT/TODO LIST.md": {
+    "iconName": "RiPushpinFill",
+    "iconColor": "#ff0066"
+  },
+  "ARCHIVE/E8/2025/GraphicsDev/GraphicsDevelopment.md": {
+    "iconName": "RiTeamLine",
+    "iconColor": "#aae8c8"
+  }
 }
