@@ -1,70 +1,40 @@
 
+# NFLOW 준설토 침강 해석 시뮬레이터 
 
-- [ ] **USB 허브 구매** 
-신재호 선임에게 구매 이력 확인 및 관련자료 없을 시, 품의서 작성 
-- [UGREEN CM512 (7포트/USB 3.0 Type C) : 다나와 가격비교](https://prod.danawa.com/info/?pcode=20696873)
+##### PRE-PROCESSOR
+ **LBM**
+ - backend
+	- 현재 솔버 백앤드 - TaskManager 연계 원활하지 않음
+	-  API는 설계완료 
+	- 작업 후, 테스트 예정 
+	- **10/16 LBM 전달을 목표로 진행** 
+
+**SPH** 
+- JSON 컨버터 개발중 (SH)
+- Task 관리기능 개발중 (JH)
+
+##### POST-PROCESSOR
+###### 실사용자 피드백 반영 요청 
+SPH/LBM 포트를 분리하여 배포 
+- 현재 결과데이터 하드값으로 불러오는 관계로, 포트를 분리하여 각각 제공 (MS)
+
+---
+# VSMR 
+- baseline, branch 관리 기능 개발 
+- 노드 관리 및 포트 연결 기능 재작업
+- 
 
 
 ---
+# IITP 
+###### 3분기회의 
 
-# WBS 
-```dataviewjs
-// 올해의 연도 가져오기
-const year = new Date().getFullYear();
-
-// 1월 1일과 12월 31일의 Date 객체 생성
-const jan1 = new Date(year, 0, 1);
-const dec31 = new Date(year, 11, 31);
-
-// 1월 1일이 속한 주의 월요일 구하기
-const startOfWeek = new Date(jan1);
-startOfWeek.setDate(jan1.getDate() - jan1.getDay() + (jan1.getDay() === 0 ? -6 : 1));
-
-// 12월 31일이 속한 주의 월요일 구하기
-const lastWeekStart = new Date(dec31);
-lastWeekStart.setDate(dec31.getDate() - dec31.getDay() + (dec31.getDay() === 0 ? -6 : 1));
-// 마지막 주의 일요일은 그 월요일에 6일을 더한 날
-const endOfWeek = new Date(lastWeekStart);
-endOfWeek.setDate(lastWeekStart.getDate() + 6);
-
-// 폴더 내의 페이지들 중, 시작일과 마감일이 올해 전체 범위와 겹치는 항목들 선택
-const projects = dv.pages('"PROJECT"')
-    .where(p => p.enddate && (p.startdate <= endOfWeek && p.enddate >= startOfWeek))
-    .sort(p => p.enddate, 'desc');
-
-const mermaidConf = `mermaid
-gantt
-    dateFormat  D-M-YYYY
-    axisFormat %m-%d
-    todaymarker on`;
-
-let tasks = "";
-projects.forEach(page => {
-  const title = page.file.name;
-  const startDate = page.startdate ? `${page.startdate.day}-${page.startdate.month}-${page.startdate.year}` : 'unknown';
-  const dueDate = page.enddate ? `${page.enddate.day}-${page.enddate.month}-${page.enddate.year}` : 'unknown';
-  
-  tasks += `    ${title} : ${startDate}, ${dueDate}\n`;
-});
-
-const backticks = "```";
-dv.paragraph(
-  `${backticks}${mermaidConf}
-${tasks}
-${backticks}`
-);
+1세부 결과물 
+- 다성분 유동, 농도확산, 다상 유동, 복합 열 전달, 유체-강체 해석이 가능한 LBM 기반 가상물리해석 도구 5종 (SW)
 
 
-```
----
 
-# TODO 
-
-<iframe src="https://app.projectplan-powerpoint.com/#/?frame=1&src=browser&planId=607f070b-bc6c-4f4f-9735-9291a8953be3&secret=e8090c2c-d300-4233-8b2a-72119022ccb2" style="width: 100%; height: 600px; box-shadow: 0px 0px 14px #ccc"</iframe>
-
---- 
-
-## 2. 연합트윈 3세부 2차 PoC 개발
+###### 연합트윈 3세부 2차 PoC 개발
 전처리기 개발 
 	- PoC에 적합한 솔버 선정
 		- ***솔버연구팀에 어떤  솔버를 사용할 것 인지 문의 필요*** 
@@ -82,62 +52,8 @@ ${backticks}`
 	- LBM 후처리 기능 개발 
 	- Data Plotting 기능 개발 
 	- Dashboard 기능 개발 
+
 - **오픈소스 작업**   
 	- 라이선스 검토 
 
 ---
-## 3. NDX Cloud Pix4D
-- 향후 방향성 수립 필요
-
----
-
-## 4. NFLOW 개발
-- 향후 방향성 수립 필요 
-- 
----
-
-
-
-
-### 낮은 우선순위
-#### JavaScript
-- 1급 객체 
-- Event Sourcing Pattern
-- 유사배열과 이터러블
-- 불변성법칙(immutability)
-
-
-
----
-## 일정 산정
-- 다음 버전 릴리즈에 맞춰서 일정 고려 
-- QA, QC 기간 고려해서 사전에 끝낼 수 있도록 일정 산정
-- 자체 R&D의 경우는 당위성을 설정해야 할 것.
-##### 프로젝트의 단위 별 상세 항목
-
->기획서 
->프로젝트별 수행 계획서
->구현 
->테스트
-
-MAN MONTH 기준 기간 산출 하기위한 상세 기획 필요
-
-
-Rendering Engine 
-  - Mouse Contorl 기능 고도화
-  - VTK 가시화 기능 개발
- 
-현대차 지그 유닛 자동 리깅 플러그인
-   - 머신 카테고리별 테스트 진행
-
----
-
-
-# GPT Review webhook
-- Web Hook 설정 방법
-- GitLab Login → Project 선택 → Settings → Webhooks
-- URL : [http://172.16.28.218:53780/webhook/gitlab](http://172.16.28.218:53780/webhook/gitlab "http://172.16.28.218:53780/webhook/gitlab")
-- Name(Optional) : GPT Code Review
-- Secret token : ndxpro123!
-- Trigger : Merge request events
-- SSL Verification : Disable
