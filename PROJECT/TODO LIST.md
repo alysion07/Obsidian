@@ -1,24 +1,16 @@
+- 컨테이너 띄울 때, Metric 확인해서 실행 여부 판단 필요
 
 # NFLOW 준설토 침강 해석 시뮬레이터 
 
+
 ##### PRE-PROCESSOR
  **LBM**
- - backend
-	- 현재 솔버 백앤드 - TaskManager 연계 원활하지 않음
-	-  API는 설계완료 
-	- 작업 후, 테스트 예정 
-	- **10/16 LBM 전달을 목표로 진행** 
+ 
 
-**SPH** 
-- JSON 컨버터 개발중 (SH)
-- Task 관리기능 개발중 (JH)
 
 ##### POST-PROCESSOR
 
-## TWS 해석 CASE
-- - 변하지 않는 격자형태
-- 고정 STL model (드론의 날개는 고정x)
-- 약 170만개의 Cell data기준
+
 
 ---
 # VSMR 
@@ -29,6 +21,12 @@
 
 ---
 # IITP 
+
+#### 솔버 선정 및 개발착수
+[테스트 결과서 v2.0](https://www.notion.so/v2-0-28e2a73e8e3380458cf9d2e12ab9cf88)
+
+---
+
 ###### 3분기회의 
 
 1세부 결과물 
