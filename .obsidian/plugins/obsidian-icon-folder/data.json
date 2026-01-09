@@ -90,12 +90,12 @@
   "AREA/PIX4D/PIX4D Engine Offline": "⛔",
   "AREA/PIX4D/NDX Cloud Pix4D/Overview.md": "LiBadgeAlert",
   "AREA/연합트윈/연합트윈(TO-DO).md": "🎍",
-  "PROJECT/TODO LIST.md": {
-    "iconName": "RiPushpinFill",
-    "iconColor": "#ff0066"
-  },
   "ARCHIVE/E8/2025/GraphicsDev/GraphicsDevelopment.md": {
     "iconName": "RiTeamLine",
     "iconColor": "#aae8c8"
+  },
+  "PROJECT/업무 리스트.md": {
+    "iconName": "RiPushpinFill",
+    "iconColor": "#ff0066"
   }
 }

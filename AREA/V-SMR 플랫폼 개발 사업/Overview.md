@@ -8,6 +8,10 @@ description:
 
 # 개발 로드맵
 
+
+# supabase
+pw: EKtxLSqRUTFSR3nj
+
 # 이슈 사항
 - 고속 해석 시뮬레이터 개발 
 	- MARS 시나리오 선정 
