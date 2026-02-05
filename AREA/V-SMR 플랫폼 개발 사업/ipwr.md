@@ -30,7 +30,6 @@ Void Fraction
 - 원자로 전체 적인 모습 + 2차 계통 
 
 
-
 ## Rods Position Control 
 - React or Turbine 중 플랜트 리딩 모드 선택 가능 
 
