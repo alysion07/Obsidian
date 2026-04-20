@@ -22,3 +22,7 @@
 ## 2026-04-15
 
 - `09:00` **INGEST** `VSMR 시뮬레이션 결과 저장경로 (BFF 전달)` → 요약 1개(VSMR-시뮬레이션결과-저장경로) 생성, MARS-GUI 엔티티 업데이트
+
+## 2026-04-20
+
+- `09:30` **INGEST** `level-set-topology-optimization.pdf/.docx` (Level Set 기반 위상 최적화 Theory Note) → 요약 1개(Level-Set-Topology-Optimization), 개념 5개(Level-Set-Method, Topology-Optimization, Hamilton-Jacobi-Equation, Signed-Distance-Function, Eikonal-Equation) 생성
