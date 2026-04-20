@@ -3,49 +3,49 @@
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": true,
+  "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:PROJECT ",
+      "query": "path:wiki/concepts",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 4886754
       }
     },
     {
-      "query": "path:ARCHIVE ",
+      "query": "path:wiki/entities",
       "color": {
         "a": 1,
-        "rgb": 16769162
+        "rgb": 15105570
       }
     },
     {
-      "query": "path:AREA ",
+      "query": "path:wiki/summaries",
       "color": {
         "a": 1,
-        "rgb": 12121087
+        "rgb": 2600544
       }
     },
     {
-      "query": "path:RESOURCE  ",
+      "query": "path:wiki/relationships",
       "color": {
         "a": 1,
-        "rgb": 6674366
+        "rgb": 10181046
       }
     }
   ],
   "collapse-display": false,
-  "showArrow": true,
+  "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.29905882352941,
+  "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 2.4233122224069112,
+  "scale": 1.3829817985717734,
   "close": false
 }

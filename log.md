@@ -26,3 +26,4 @@
 ## 2026-04-20
 
 - `09:30` **INGEST** `level-set-topology-optimization.pdf/.docx` (Level Set 기반 위상 최적화 Theory Note) → 요약 1개(Level-Set-Topology-Optimization), 개념 5개(Level-Set-Method, Topology-Optimization, Hamilton-Jacobi-Equation, Signed-Distance-Function, Eikonal-Equation) 생성
+- `10:00` **REBUILD** `level-set-topology-optimization.pdf` 요약 페이지 재생성 (삭제되었던 `wiki/summaries/Level-Set-Topology-Optimization.md` 복원)
